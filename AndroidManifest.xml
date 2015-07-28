@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.RSen.OpenMic.Pheonix">
+
+    <uses-sdk tools:node="replace" />
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="net.dinglisch.android.tasker.PERMISSION_RUN_TASKS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.ACCESS_SUPERUSER" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS"/>
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.bluetooth"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/_AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".MyBroadcastreceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".MyService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".TaskerActivity"
+            android:label="Tasker Commands"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.RSen.OpenMic.Pheonix.MainActivity" />
+        </activity>
+        <activity
+            android:name=".DonateActivity"
+            android:label="@string/title_activity_donate"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.RSen.OpenMic.Pheonix.MainActivity" />
+        </activity>
+        <!--
+             This is the "edit" Activity. Note that Locale will reject plug-in Activities for the following reasons: 
+                 - Missing "android:label=[...]"
+                 - Missing "android:icon=[...]"
+                 - The Activity isn't exported (e.g. android:exported="false")
+                 - The Activity isn't enabled (e.g. android:enabled="false")
+                 - The Activity requires permissions not available to Locale
+        -->
+        <activity
+            android:name=".EditActivity"
+            android:exported="true"
+            android:icon="@drawable/ic_launcher"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:windowSoftInputMode="adjustResize">
+
+            <!-- this Intent filter allows the plug-in to be discovered by Locale -->
+            <intent-filter>
+                <action android:name="com.twofortyfouram.locale.intent.action.EDIT_SETTING" />
+            </intent-filter>
+        </activity>
+        <!--
+             This is the "fire" BroadcastReceiver. Note that Locale will reject plug-in BroadcastReceivers for the following reasons:
+                - The BroadcastReceiver isn't exported (e.g. android:exported="false")
+                - The BroadcastReceiver isn't enabled (e.g. android:enabled="false")
+                - The BroadcastReceiver requires permissions not available to Locale
+                - There are multiple BroadcastReceivers for com.twofortyfouram.locale.intent.action.FIRE_SETTING
+        -->
+        <receiver
+            android:name=".FireReceiver"
+            android:exported="true">
+
+            <!-- this Intent filter allows the plug-in to discovered by Locale -->
+            <intent-filter>
+                <action android:name="com.twofortyfouram.locale.intent.action.FIRE_SETTING" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".CheckIfMusicPlayingService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <receiver
+            android:name=".ScreenReceiver"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".StartListeningActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:label="Start Listening"
+            android:launchMode="singleInstance"
+            android:noHistory="true"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+        <activity
+            android:name=".StopListeningActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:label="Stop Listening"
+            android:launchMode="singleInstance"
+            android:noHistory="true"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+        <activity
+            android:name=".WakeupActivity"
+            android:clearTaskOnLaunch="true"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:noHistory="true"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+
+        <receiver
+            android:name=".PowerConnectionReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".CheckIfAppBlackListedService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <receiver
+            android:name=".KeyguardReceiver"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".BlacklistActivity"
+            android:label="@string/blacklist"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.RSen.OpenMic.Pheonix.MainActivity" />
+        </activity>
+
+        <service
+            android:name=".ScreenReceiversService"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".OverlayService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".AutoStartSettingsActivity"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.RSen.OpenMic.Pheonix.MainActivity" />
+        </activity>
+
+        <meta-data
+            android:name="com.crashlytics.ApiKey"
+            android:value="eb7953bfff80cd7f28240687400a7a7e5d6da75f" />
+        <meta-data
+            android:name="apptentive_api_key"
+            android:value="cbaf4aaaab396dfd8c4121cf2354949ca3c5be834d853b7c4609bf9157baf626" />
+
+        <activity
+            android:name="com.apptentive.android.sdk.ViewActivity"
+            android:theme="@style/Apptentive.Theme.Transparent" />
+
+        <receiver android:name="com.apptentive.android.sdk.comm.NetworkStateReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".GcmBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="com.RSen.OpenMic.Pheonix" />
+            </intent-filter>
+        </receiver>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name=".FreeDonateActivity"
+            android:label="@string/title_activity_free_donate"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Open Mic+</string>
+    <string name="title_activity_donate">Donate</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="toggle">Toggle</string>
+    <string name="enable_screen_off">Enable Listening while Screen Off</string>
+    <string name="disable_screen_off">Disable Listening while Screen Off</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="tasker_install">You must first install Tasker to configure custom commands
+    </string>
+
+    <string name="no_commands">No commands yet...</string>
+    <string name="add_tasker_command">Add Tasker Command</string>
+    <string name="you_have_no_tasker_tasks_please_ensure_that_tasker_misc_allow_external">You have
+        no Tasker tasks... Please ensure that Tasker>Misc>Allow External Access is enabled
+    </string>
+    <string name="please_enter_command_phrase_">Please enter command phrase...</string>
+    <string name="edit_tasker_command">Edit Tasker Command</string>
+    <string name="you_have_no_tasker_tasks_">You have no Tasker tasks...</string>
+    <string name="delete">Delete</string>
+    <string name="tasker_command_executed_">Tasker command executed:</string>
+    <string name="tasker_not_ready_">Tasker not ready... This Tasker issue is most commonly fixed by reinstalling Open Mic+</string>
+    <string name="add">Add</string>
+    <string name="donate">Donate</string>
+    <string name="hot_phrase_detection">Hotword Detection</string>
+    <string name="listen_for_your_specified_hot_phrase_the_default_is_okay_google">Listen for your
+        specified hot phrase, the default is Okay Google
+    </string>
+    <string name="wave_detection">Wave Detection</string>
+    <string name="hot_phrase">Hot Phrase</string>
+
+    <string name="listen_while_screen_off">Listen while Screen Off</string>
+
+
+    <string name="hide_notification">Hide Notification</string>
+    <string name="tasker">Tasker</string>
+    <string name="general">General</string>
+    <string name="activation">Activation</string>
+    <string name="tasker_commands">Tasker Commands</string>
+    <string name="custom_commands_using_tasker">Custom commands using Tasker</string>
+    <string name="hide_tasker_executed_messages">Hide Tasker Executed Messages</string>
+
+    <string name="pause">Pause</string>
+    <string name="open_mic_paused">Open Mic+ Paused</string>
+    <string name="swipe_away_to_stop">Swipe away to stop</string>
+    <string name="resume">Resume</string>
+
+    <string name="listen_charging">Auto Start on Charger Connection</string>
+
+    <string name="toggle_launch">Auto Start/Stop on App Launch</string>
+
+    <string name="donate_only">Sorry this feature is only available in the Donate version which
+        helps me justify time spent on development. If you would rather not pay, you can unlock
+        these features by sharing on social media.
+    </string>
+
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="blacklist">Blacklisted Apps</string>
+
+    <string name="su">Hide Notification Completely (Root)</string>
+    <string name="no_su">Sorry root access failed...</string>
+
+    <string name="share">Share</string>
+    <string name="facebook_app_id">1459600630952656</string>
+    <string name="support_menu">Support</string>
+
+    <string name="google_update_title">Google Now Update</string>
+    <string name="google_update_message">There is an updated Google Now, which makes Open Mic+
+        better!\nWould you like to download it?
+    </string>
+    <string name="hello">Hello</string>
+    <string name="sensitivity">Sensitivity</string>
+
+    <string name="shake_detection">Shake Detection</string>
+
+    <string name="hotphrase_validated">Hotphrase validated...</string>
+    <string name="hotphrase_invalidated">Hotphrase contains non-English words, please change your
+        speech engine to Google if this is intentional. Hotphrase reset to Okay Google...
+    </string>
+    <string name="hotphrase_validating">Validating Hotphrase... This may take some time...</string>
+
+    <string name="hotphrase_reset">Hotphrase reset to Okay Google...</string>
+
+    <string name="two_versions">Two Versions Installed</string>
+    <string name="two_versions_installed">Both the donate and the free version are installed. As
+        both versions work independently, would you like to uninstall the free version?
+    </string>
+
+    <string name="title_activity_free_donate">Free Donate Version</string>
+
+    <string name="engine_comparison">Google (Default)\n- More visual feedback (helpful for
+        learning)\n- Works \"Out of the Box\"\n- Allows for Tasker Commands\n\nPocketSphinx
+        (Advanced)\n- Faster\n- More Battery-Efficient\n- Customize sensitivity
+    </string>
+    <string name="about_message">Open Mic+ was initially developed by Ryan Senanayake when he was 15 years old. See more at www.RSenApps.com
+    \n\nSpecial thanks to Sky Kelsey and the Apptentive Team\n\nThanks to the following libraries:\nAndroid Donations Lib by dschuermann github.com/dschuermann/android-donations-lib\n
+    Apache Commons Codec commons.apache.org/proper/commons-codec\nCMU Sphinx cmusphinx.sourceforge.net\nCard Library by gabrielmariotti github.com/gabrielmariotti/cardslib\n
+    ListViewAnimations by nhaarman github.com/nhaarman/ListViewAnimations\nAndroidStaggeredGrid by etsy github.com/etsy/AndroidStaggeredGrid\n
+    Apache Commons Lang commons.apache.org/proper/commons-lang\nAndroid Social Networks by antonkrasov github.com/antonkrasov/AndroidSocialNetworks
+    \nSuperToasts Library by JohnPersano github.com/JohnPersano/SuperToasts</string>
+    <string name="login_failed">Login Failed. Please Try Again...</string><string name="fb_share_msg">As Featured on XDA, LifeHacker, SlashGear, and more!
+With Open Mic+ for Google Now, access all the commands from anywhere on your phone, while driving, or while away from your phone! Simply say \"Okay Google\", wave your hand, or shake your phone. Screen on, screen off Google Now will be ready to listen.</string>
+    <string name="share_name">Open Mic+ for Google Now (Android)</string>
+    <string name="post_failed">Post Failed. Please Try Again...</string>
+    <string name="twitter_share_msg">Check out Open Mic+ for #Android to allow #GoogleNow to be voice activated at anytime, even while the screen is off! http://OpenMic.RSenApps.com</string>
+    <string name="google_share_msg">Check out ﻿+112424215551484520138 to allow #GoogleNow to be voice activated at anytime, even while the screen is off! As Featured on XDA, LifeHacker, SlashGear, and more! http://OpenMic.RSenApps.com http://youtu.be/njDJODbSjhM</string>
+    <string name="install_google_plus">Please install Google+ first</string>
+    <string name="loading_applications">Loading application info...</string>
+    <string name="set">Set</string>
+    <string name="out_of"> out of </string>
+    <string name="support_message_received">Open Mic+ Message</string>
+    <string name="support_request_received_message">There is a reply to your support request!</string>
+    <string name="nothing_yet">Nothing Yet...</string>
+    <string name="texted"> texted </string>
+    <string name="welcome">Welcome to Open Mic+</string><string name="setup_message">Before use, please setup Google Now to allow for hotword detection.
+On the next screen, ensure that:
+</string>
+    <string name="settings">Settings</string><string name="setup_instructions">1. Google Now is enabled.
+2. Under Voice, \"Ok Google\" hotword detection is enabled</string>
+    <string name="done">Done</string>
+    <string name="play_store">Play Store</string>
+    <string name="about">About</string>
+    <string name="enable_at_least_one">Please enable at least one activation method</string>
+    <string name="survey_available">You have qualified for a targeted survey which will help determine future updates</string>
+    <string name="open">Open</string>
+    <string name="language_not_supported">Language not supported</string>
+    <string name="storage_not_available">Your external storage is not available, please ensure this is connected and try again</string>
+    <string name="no_tasker">No Tasker Commands</string>
+    <string name="add_tasker">Add Tasker Command</string>
+    <string name="enter_command_phrase">Please Enter Command Phrase</string>
+    <string name="edit_tasker">Edit Tasker Command</string>
+    <string name="substandard_google_now">Sorry your device has a substandard version of Google Now. Click the Support button and I\'ll try to help you find a standard version</string>
+    <string name="advanced">Advanced</string>
+    <string name="listen">Listen</string>
+    <string name="over_bluetooth">Over Bluetooth Headsets</string>
+    <string name="enable_google_bluetooth">Enable Google Now Bluetooth</string>
+    <string name="enable_google_bluetooth_instructions">On the next screen, enable \"Bluetooth Headset\"</string>
+    <string name="enable_google_bluetooth_toast">Enable \"Bluetooth Headset\"</string>
+    <string name="read">Read</string>
+    <string name="text_messages">Text Messages Aloud</string>
+    <string name="hide">Hide</string>
+    <string name="notification_partially">Notification Partially</string>
+    <string name="notification_completely">Notification Completely (Root)</string>
+    <string name="animate">Animate</string>
+    <string name="google_wakeup">Google Now Wakeup</string>
+    <string name="vibrate">Vibrate</string>
+    <string name="on_activation">On Activation</string>
+    <string name="reactivate">Reactivate</string>
+    <string name="lockscreen_if_bypassed">Lockscreen If Bypassed</string>
+    <string name="turn_off">Turn Off</string>
+    <string name="screen_after_30">Screen After 30 sec If Turned On</string>
+    <string name="tasker_executed_message">Tasker Executed Message</string>
+    <string name="blacklisted_apps">Blacklisted Apps</string>
+    <string name="blacklisted">Blacklisted</string>
+    <string name="not_blacklisted">Not Blacklisting</string>
+    <string name="apps_using_mic">Apps Using Mic</string>
+    <string name="apps_mic_explanation">Android only allows one app to use the microphone at a time, which causes for apps that use the microphone to malfunction while Open Mic+ is running. Would you like Open Mic+ to automatically pause itself when using these apps?</string>
+    <string name="no_blacklisted">No Blacklisted</string>
+    <string name="custom_apps">Custom Apps</string>
+    <string name="one_custom_app">1 Custom App</string>
+    <string name="having_trouble">Having Trouble?</string>
+    <string name="knowledgebase">Knowledgebase</string>
+    <string name="xda_thread">XDA Thread</string>
+    <string name="watch">Watch</string>
+    <string name="video">Video</string>
+    <string name="contact">Contact</string>
+    <string name="developer">Developer</string>
+    <string name="say">Say</string>
+    <string name="using">Using</string>
+    <string name="pocketsphinx_engine">PocketSphinx Engine</string>
+    <string name="google_engine">Google Engine</string>
+    <string name="choose_speech_engine">Choose Speech Engine</string>
+    <string name="google">Google</string>
+    <string name="pocketsphinx">PocketSphinx</string>
+    <string name="optimizing">Optimizing</string>
+    <string name="for_english">For English</string>
+    <string name="out_of_5"> out of 5</string>
+    <string name="listening_during_music">Listening During Music</string>
+    <string name="enable_google_detection">Enable Google Now Detection</string>
+    <string name="on_next_screen">On the next screen, </string>
+    <string name="enable_google_detection_instructions">under Voice, please ENABLE \"Ok Google\" hotword detection</string>
+    <string name="disable_google_detection">Disable Google Now Detection</string>
+    <string name="disable_google_detection_instructions">under Voice, please disable \"Ok Google\" hotword detection</string>
+    <string name="running">Running</string>
+    <string name="started">Started</string>
+    <string name="activated">Activated</string>
+    <string name="no_times">0 Times</string>
+    <string name="last_heard">Last Heard</string>
+    <string name="times"> Times</string>
+    <string name="shake_detection_disabled">Shake Detection (Disabled)</string>
+    <string name="out_of_10"> out of 10</string>
+    <string name="shake_sensitivity">Shake Sensitivity</string>
+    <string name="unavailable">Unavailable:</string>
+    <string name="no_accelerometer">Device Has No Accelerometer</string>
+    <string name="tasker_commands_disabled">Tasker Commands (Disabled)</string>
+    <string name="one_tasker_command">1 Tasker Command</string>
+    <string name="not_installed">Not Installed</string>
+    <string name="with_pocketsphinx_engine">With PocketSphinx Engine</string>
+    <string name="try_word">Try</string>
+    <string name="saying">Saying</string>
+    <string name="waving">Waving</string>
+    <string name="hand">Hand </string>
+    <string name="times_over_front_camera"> Times Over Front Camera</string>
+    <string name="shaking">Shaking</string>
+    <string name="phone">Phone</string>
+    <string name="volume">Volume</string>
+    <string name="wave_detection_disabled">Wave Detection (Disabled)</string>
+    <string name="wave">Wave</string>
+    <string name="number_waves_required">Number of Waves Required</string>
+    <string name="in">In</string>
+    <string name="seconds"> seconds</string>
+    <string name="time_in_seconds_to_complete">Time in Seconds to Complete Wave</string>
+    <string name="no_proximity_sensor">Device Has No Proximity Sensor</string>
+    <string name="when_to_run">When To Run</string>
+    <string name="auto_start">Auto Start</string>
+    <string name="on_boot">On Boot</string>
+    <string name="on_charger">On Charger</string>
+    <string name="on_app_launch">On App Launch</string>
+    <string name="never">Never</string>
+    <string name="listening">Listening</string>
+    <string name="not_listening">Not Listening</string>
+    <string name="while_screen_on">While Screen On</string>
+    <string name="listen_while_screen_on">Listen While Screen On</string>
+    <string name="while_screen_off_if_charging">While Screen Off If Charging</string>
+    <string name="while_screen_off">While Screen Off</string>
+    <string name="start_listening_as_soon_as_the_device_has_started">Start listening as soon as the device has started</string>
+    <string name="start_on_boot">Auto Start on Boot</string>
+    <string name="listen_charging_description">Automatically turn on listening while charging and stop once disconnected</string>
+    <string name="toggle_launch_description">Opening the app will start/stop listening</string>
+
+    <string name="invalid_int">Invalid input. No value changed...</string>
+    <string name="action_question">What would you like this action to do?</string>
+    <string name="only_if_charging">Only if Charging</string>
+</resources>

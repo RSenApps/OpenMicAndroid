@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated on Sunday, 06. April 2014 05:22PM by lokaligo.com -->
+
+<resources>
+    <string name="app_name">Open Mic+</string>
+
+    <string name="title_activity_donate">捐赠</string>
+
+    <string name="start">开始</string>
+
+    <string name="stop">停止</string>
+
+    <string name="action_question">你想让这个动作做什么？</string>
+
+    <string name="toggle">切换</string>
+
+    <string name="enable_screen_off">启用关屏监听模式</string>
+
+    <string name="disable_screen_off">禁用关屏监听模式</string>
+
+    <string name="ok">好的</string>
+
+    <string name="cancel">取消</string>
+
+    <string name="tasker_install">您必须先安装Tasker以配置自定义指令</string>
+
+    <string name="proximity_missing">对不起，您的设备不具备挥手监测功能所必需的距离传感器</string>
+
+    <string name="no_commands">还没有指令...</string>
+
+    <string name="add_tasker_command">添加Tasker指令</string>
+
+    <string name="you_have_no_tasker_tasks_please_ensure_that_tasker_misc_allow_external">
+        你有没有任何Tasker任务...请确保Tasker>其他>允许外部访问已经启用
+    </string>
+
+    <string name="please_enter_command_phrase_">请输入指令词...</string>
+
+    <string name="edit_tasker_command">编辑Tasker指令</string>
+
+    <string name="you_have_no_tasker_tasks_">你没有任何Tasker任务...</string>
+
+    <string name="delete">删除</string>
+
+    <string name="tasker_command_executed_">Tasker指令已执行</string>
+
+    <string name="tasker_not_ready_">Tasker没有准备好......</string>
+
+    <string name="add">添加</string>
+
+    <string name="donate">捐赠</string>
+
+    <string name="hot_phrase_detection">召唤词检测</string>
+
+    <string name="listen_for_your_specified_hot_phrase_the_default_is_okay_google">
+        监听您指定的召唤词，默认是\"Okay Google\"
+    </string>
+
+    <string name="wave_detection">挥手监测</string>
+
+    <string name="wave_your_hand_back_and_forth_directly_over_the_forward_facing_camera">
+        在前置摄像头正上方来回挥动你的手
+    </string>
+
+    <string name="say_this_to_activate_open_mic_">说这个来启动Open Mic+：</string>
+
+    <string name="hot_phrase">召唤词</string>
+
+    <string name="english_optimization">英语优化</string>
+
+    <string name="optimize_hot_phrase_recognition_for_english">优化英文召唤词的识别</string>
+
+    <string name="listen_while_screen_off">屏幕关闭时依然监听</string>
+
+    <string
+        name="enabling_this_will_greatly_increase_power_consumption_listening_will_continue_even_when_the_screen_is_off">
+        即使屏幕关闭，监听将继续，但这将大大增加电量消耗
+    </string>
+
+    <string name="start_on_boot">开机自动启动应用</string>
+
+    <string name="start_listening_as_soon_as_the_device_has_started">设备启动后立即开始监听</string>
+
+    <string name="hide_notification">隐藏通知</string>
+
+    <string name="tasker">Tasker</string>
+
+    <string name="general">通用</string>
+
+    <string name="activation">启用</string>
+
+    <string name="tasker_commands">Tasker指令</string>
+
+    <string name="custom_commands_using_tasker">使用Tasker配置自定义指令</string>
+
+    <string name="hide_tasker_executed_messages">隐藏Tasker执行的提示</string>
+
+    <string name="dont_show_a_message_when_a_tasker_command_is_executed_using_open_mic_">当使用Open
+        Mic+执行一条Tasker指令时不显示提示
+    </string>
+
+    <string name="pause">暂停</string>
+
+    <string name="open_mic_paused">Open Mic+ 已暂停</string>
+
+    <string name="swipe_away_to_stop">划走以停止</string>
+
+    <string name="resume">恢复</string>
+
+    <string name="vibration_feedback">震动反馈</string>
+
+    <string name="vibration_feedback_description">当检测到召唤词或挥动手势时短暂震动</string>
+
+    <string name="listen_charging">充电时监听</string>
+
+    <string name="listen_charging_description">充电开始时自动启动监听，充电结束后停止监听</string>
+
+    <string name="toggle_launch">启动时切换监听状态</string>
+
+    <string name="toggle_launch_description">启动应用时在开启监听和关闭监听之间切换</string>
+
+    <string name="listen_only_screen_off">仅在关屏时监听</string>
+
+    <string name="listen_only_screen_off_description">关闭屏幕时开启监听以便在安卓4.4中使用</string>
+
+    <string name="listen_screen_off_charging">仅在关屏且充电时监听</string>
+
+    <string name="listen_screen_off_charging_description">关闭屏幕时若正在充电则开启监听，否则仅在点亮屏幕时监听</string>
+
+    <string name="donate_only">对不起，我在开发时耗费很多时间，因此这个功能仅在收费版本中</string>
+
+    <string name="use_gettasks">使用Google Now默认召唤词</string>
+
+    <string name="use_gettasks_summary">在Google Now应用中使用Google Now的默认召唤词进行监听。这可以使Open
+        Mic+更加可靠，但是只有当语言设置为美国英语时才有效，并且这意味着在Google Now 应用中需要说\"Okay Google\"
+    </string>
+
+    <string name="yes">是</string>
+
+    <string name="no">否</string>
+
+    <string name="blacklist">应用黑名单</string>
+
+    <string name="blacklist_summary">Open Mic+将不会在这些应用中进行监听。建议设置为使用麦克风的高强度游戏和应用。 It\'s recommended
+        to select high intensity games and apps that use the microphone.
+    </string>
+
+    <string name="relock">自动锁屏</string>
+
+    <string name="relock_summary">关闭Google Now之后自动重新锁屏</string>
+
+    <string name="su">隐藏通知(需要Root)</string>
+
+    <string name="su_summary">对于已经root的手机彻底隐藏通知栏通知</string>
+
+    <string name="no_su">对不起，root权限加载失败…</string>
+
+    <string name="tasker_guide">Tasker使用说明</string>
+
+    <string name="tasker_guide_message">Tasker 教程：\n
+        应部分用户的请求，以下是一些关于如何整合Tasker和Open Mic+的说明 :)\n
+        \n
+        用Tasker启动和停止监听：\n
+        1. 确保您的手机已安装Tasker（见下方按钮）\n
+        2. 任务 > 新建（加号）\n
+        3. 新建操作（加号）\n
+        4. 插件\n
+        5. Open Mic+ - 改变监听状态（Toggle Listening）\n
+        6. 点击编辑（它现在应该显示准备完毕）\n
+        7. 制作了新的任务之后，您即可将其与一个配置文件连接起来以改变监听状态。\n
+        \n
+        使用自定义召唤词来执行任务\n
+        1. 确保您的手机已安装Tasker（见下方按钮）\n
+        2. 首选项\n
+        3. 杂项\n
+        4. 在允许外部访问处打勾\n
+        5. 创建您所需的一个任务\n
+        6. 启动Open Mic+\n
+        7. 设置\n
+        8. Tasker 指令\n
+        9. 新建\n
+        10. 输入召唤词\n
+        11. 从下拉菜单选择Tasker指令\n
+        12. 您现在可以使用了！
+    </string>
+
+    <string name="support_menu">支持</string>
+
+    <string name="log_copied">您的系统日志已被复制。请粘贴到相应的支持/帮助请求中。</string>
+
+    <string name="bluetooth">蓝牙耳机</string>
+
+    <string name="bluetooth_description">若已连接蓝牙耳机，将从耳机收听语音。请确保此选项也已在Google Now中勾选。</string>
+
+    <string name="turn_off_screen">关闭屏幕</string>
+
+    <string name="turn_off_screen_description">如果指令触发时屏幕处于关闭状态，那么30秒后将自动关闭屏幕。</string>
+
+    <string name="google_update_title">Google Now更新</string>
+
+    <string name="google_update_message">Google Now有新版本更新，将会使Open Mic+更加好用！\n您是否想下载更新？</string>
+
+    <string name="hello">您好</string>
+
+    <string name="speech_engine">语音识别引擎</string>
+
+    <string name="speech_engine_description">PocketSphinx
+        更加快速，方便，而且省电。只有当您需要使用Tasker指令，或者您的召唤词非英文时选择使用谷歌(Google)的识别引擎。
+    </string>
+
+    <string name="speech_engine_settings">语音识别引擎设置</string>
+
+    <string name="sensitivity">灵敏度</string>
+
+    <string name="sensitivity_description">控制语音识别引擎对于召唤词的灵敏度</string>
+
+    <string name="pocketsphinx">PocketSphinx（默认）</string>
+
+    <string name="google">谷歌</string>
+
+    <string name="welcome_pocketsphinx">见识一下PocketSphinx</string>
+
+    <string name="pocketsphinx_tasker">PocketSphinx尚不支持Tasker指令，请将语音识别引擎切换至谷歌(Google)</string>
+
+    <string name="overlay">Google Now启动动画</string>
+
+    <string name="read_messages">阅读短信</string>
+
+    <string name="read_messages_summary">当Open Mix+处于监听状态时朗读短信内容</string>
+
+    <string name="shake_detection">摇一摇感应</string>
+
+    <string name="shake_missing">对不起，您的设备没有摇一摇感应所必需的加速度传感器</string>
+
+    <string name="hotphrase_validated">召唤词通过验证…</string>
+
+    <string name="hotphrase_invalidated">召唤词包含非英文单词，若这是您有意设置的，请将语音识别引擎调至谷歌(Google)。召唤词重置为\"Okay
+        Google\"…
+    </string>
+
+    <string name="hotphrase_validating">正在验证召唤词…这可能会需要一些时间…</string>
+</resources>

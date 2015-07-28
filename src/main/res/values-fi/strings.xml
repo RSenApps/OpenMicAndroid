@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated on Sunday, 23. February 2014 04:51AM by lokaligo.com -->
+
+<resources>
+    <string name="app_name">Google Now Herätys Animaatio</string>
+
+    <string name="title_activity_donate">Lue Tekstiviestit</string>
+
+    <string name="start">Lue Tekstiviestit Ääneen Kun Open Mic+ Kuuntelee</string>
+
+    <string name="stop">Ravistus Tunnistus</string>
+
+    <string name="action_question">Pahoittelen mutta laitteessasi ei ole kiihtyvyysanturia joka
+        vaaditaan ravistus tunnistukseen
+    </string>
+
+    <string name="toggle">Tarkista tunnus-sanan oikeellisuus</string>
+
+    <string name="enable_screen_off">Tunnus-sana ei sisällä Englanninkielistä sanaa, ole hyvä ja
+        muuta puhe moottori Googleksi, jos tämä on kansainvälinen. Tunnus-sana on vaihdettu Okay
+        Google:ksi
+    </string>
+
+    <string name="disable_screen_off">Tunnistaa Tunnus-sanaa... Tämä voi viedä hetken...</string>
+
+    <string name="ok">PocketSphinx ei tue Taskerin komentoa vielä, Ole hyvä ja muuta puhemoottori
+        Googleksi
+    </string>
+
+    <string name="cancel">Peruuta</string>
+
+    <string name="tasker_install">Sinun pitää asentaa ensin asentaa Tasker määrittääksesi muokattuja
+        komentoja
+    </string>
+
+    <string name="proximity_missing">Pahoittelen mutta laitteessasi ei ole läheisyysanturia joka
+        vaaditaan pyyhkäisy tunnistukseen
+    </string>
+
+    <string name="no_commands">Ei komentoja vielä...</string>
+
+    <string name="add_tasker_command">Lisää Tasker komento</string>
+
+    <string name="you_have_no_tasker_tasks_please_ensure_that_tasker_misc_allow_external">Sinulla ei
+        ole Tasker tehtävää... Varmista että Tasker>Misc>Allow External Acccess, on käytössä
+    </string>
+
+    <string name="please_enter_command_phrase_">Olehyvä ja lisää komento</string>
+
+    <string name="edit_tasker_command">Muokkaa Tasker komentoa</string>
+
+    <string name="you_have_no_tasker_tasks_">Sinulla ei ole Tasker tehtävää...</string>
+
+    <string name="delete">Poista</string>
+
+    <string name="tasker_command_executed_">Tasker komento suoritettu</string>
+
+    <string name="tasker_not_ready_">Tasker ei ole valmis</string>
+
+    <string name="add">Lisää</string>
+
+    <string name="donate">Lahjoita</string>
+
+    <string name="hot_phrase_detection">Tunnuslauseen Tunnistus</string>
+
+    <string name="listen_for_your_specified_hot_phrase_the_default_is_okay_google">Kuuntele
+        valitsemasi tunnuslause, oletuksena on Okay Google
+    </string>
+
+    <string name="wave_detection">Pyyhkäisy tunnistus</string>
+
+    <string name="wave_your_hand_back_and_forth_directly_over_the_forward_facing_camera">Pyyhkäise
+        kädelläsi edestakaisin etu-kameran edessä
+    </string>
+
+    <string name="say_this_to_activate_open_mic_">Sano tämä aktivoidaksesi Open Mic+:</string>
+
+    <string name="hot_phrase">Tunnuslause</string>
+
+    <string name="english_optimization">Englanniksi optimointi</string>
+
+    <string name="optimize_hot_phrase_recognition_for_english">Optimoi tunnuslause tunnistus
+        englanniksi
+    </string>
+
+    <string name="listen_while_screen_off">Kuuntele kun näyttö poispäältä</string>
+
+    <string
+        name="enabling_this_will_greatly_increase_power_consumption_listening_will_continue_even_when_the_screen_is_off">
+        Akun käyttö lisääntyy huomattavasti, kuuntelu jatkuu vaikka näyttö on pois päältä
+    </string>
+
+    <string name="start_on_boot">Käynnistyy käynnistäessä</string>
+
+    <string name="start_listening_as_soon_as_the_device_has_started">Aloita kuuntelu heti kun laite
+        on käynnistynyt
+    </string>
+
+    <string name="hide_notification">Piilota Ilmoitukset</string>
+
+    <string name="tasker">Tasker</string>
+
+    <string name="general">Yleinen</string>
+
+    <string name="activation">Aktivointi</string>
+
+    <string name="tasker_commands">Tasker komennot</string>
+
+    <string name="custom_commands_using_tasker">Muokattuja komentoja käyttäen Tasker:ia</string>
+
+    <string name="hide_tasker_executed_messages">Piilota Tasker:in suorittamat tehtävät</string>
+
+    <string name="dont_show_a_message_when_a_tasker_command_is_executed_using_open_mic_">Älä näytä
+        viestiä kun Tasker komento on suoritettu käyttäen Open Mic +:saa
+    </string>
+
+    <string name="pause">Tauko</string>
+
+    <string name="open_mic_paused">Open mic+ pysäytetty</string>
+
+    <string name="swipe_away_to_stop">Pyyhkäise pois pysäyttääksesi</string>
+
+    <string name="resume">Jatka</string>
+
+    <string name="vibration_feedback">Värinä palaute</string>
+
+    <string name="vibration_feedback_description">Värise lyhyesti kun tunnuslause tai pyyhkäisy on
+        tunnistettu
+    </string>
+
+    <string name="listen_charging">Kuuntele ladattaessa</string>
+
+    <string name="listen_charging_description">Automaattisesti kuuntelee ladattaessa ja pysähtyy kun
+        katkaisee latauksen
+    </string>
+
+    <string name="toggle_launch">Käynnistys nappula</string>
+
+    <string name="toggle_launch_description">Avattaessa ohjelma aloittaa/lopettaa kuuntelemisen
+    </string>
+
+    <string name="listen_only_screen_off">Kuuntele vain näyttö poispäältä</string>
+
+    <string name="listen_only_screen_off_description">Käynnistää kuuntelun kun näyttö poispäältä,
+        Käytännöllinen kun käyttää Android 4.4 Kitkat:tia
+    </string>
+
+    <string name="listen_screen_off_charging">Kuuntele kun ruutu poispäältä jos lataa</string>
+
+    <string name="listen_screen_off_charging_description">käynnistyy vain jos ruutu on poispäältä
+        jos lataa, muuten vain jos ruutu on päällä
+    </string>
+
+    <!-- Donate if more common word here in finland when we talk about android developmenting or device stuf so  (Lahjoitus = Donate = Lahjoita = Lahjoittaa = Lahjoitti). In finland there is so many differend word style for one word :) -->
+    <string name="donate_only">Pahoittelen mutta tämä toiminto on käytössä vain lahjoita (Donate)
+        versiossa mikä helpottaa minua kehityksessä
+    </string>
+
+    <string name="use_gettasks">Oletusarvoinen Google now Tunnuslause tunnistus</string>
+
+    <string name="use_gettasks_summary">Käytä Google Now tunnuslausetta kun olet Google now:in
+        sisällä. Tämä tekee Open Mic+ enemmän luotettavan, mutta toimii vain kielillä US; British,
+        tai Canadian English ja tarkoittaa että sinun pitää sanoa \"Okay Google\" kun olet sisällä
+        Google Now:ssa
+    </string>
+
+    <string name="yes">Kyllä</string>
+
+    <string name="no">Ei</string>
+
+    <string name="blacklist">Mustalistatut ohjelmat</string>
+
+    <string name="blacklist_summary">Open mi+ ei kuuntele kun olet seuraavissa ohjelmissa.
+        Suositeltavaa valita korkea resoluutio pelit ja ohjelmat jotka käyttävät mikrofonia.
+    </string>
+
+    <string name="relock">Uudelleen lukitse</string>
+
+    <string name="relock_summary">Uudelleen lukitse näyttö Google Now:ista poistumisen jälkeen
+    </string>
+
+    <string name="su">Piilota ilmoitukset (Root)</string>
+
+    <string name="su_summary">Pysyvästi piilota ilmoitukset rootatuissa puhelimissa</string>
+
+    <string name="no_su">Pahoittelen Root pääsy hylätty</string>
+
+    <string name="tasker_guide">Tasker Opas</string>
+
+    <!-- I thing it is better to these turorials to be in english because Tasker is not in Finnish language. -->
+    <string name="tasker_guide_message">TASKER TUTORIAL:\n
+        Some users have requested a little more information of how to integrate Tasker with Open
+        Mic, so here we go :)\n
+        \n
+        Start and Stop Listening with Tasker:\n
+        1. Ensure Tasker is installed on your device (see buttons below)\n
+        2. Tasks>New\n
+        3. New Action\n
+        4. Plugin\n
+        5. Open Mic+ - Toggle Listening\n
+        6. Click Edit (it should now say Ready)\n
+        6. Now that you have created the action, you can tie it in with a profile to toggle
+        listening\n
+        \n
+        Run a Task with a Custom Hotphrase\n
+        1. Ensure Tasker is installed on your device (see buttons below)\n
+        2. Preferences\n
+        3. Misc\n
+        4. Enable Allow External Access\n
+        5. Create a Task, with the desired action\n
+        6. Open Open Mic+\n
+        7. Settings\n
+        8. Tasker Commands\n
+        9. Add\n
+        10. Enter the hotphrase\n
+        11. Select the Tasker command from the dropdown\n
+        12. You\'re good to go!
+    </string>
+
+    <string name="support_menu">Tuki</string>
+
+    <string name="log_copied">Sinun logisi on kopioitu. Olehyvä ja liitä se oleelliseen tuki
+        pyyntöön
+    </string>
+
+    <string name="bluetooth">Bluethoot kuulokkeet</string>
+
+    <string name="bluetooth_description">Kuuntelee Bluethoot kuulokkeiden kautta jos käytössä.
+        Olehyvä ja hyväksy tämä myös Google Now:in asetuksista
+    </string>
+
+    <string name="turn_off_screen">Näyttö Pois Päältä</string>
+
+    <string name="turn_off_screen_description">Sammuta näyttö 30sekunnin toimettomuuden jälkeen jos
+        laukaistu, kun näyttö on pois päältä
+    </string>
+
+    <string name="google_update_title">Google Now päivitys</string>
+
+    <string name="google_update_message">Saatavilla on päivitys Google Now:hin, Tämä tekee Open
+        Mic+:ssasta paremman!!\n Haluatko ladata sen?
+    </string>
+
+    <string name="hello">Moikka</string>
+
+    <string name="speech_engine">Puhetunnistuksen moottori</string>
+
+    <string name="speech_engine_description">PocketSphinx on nopeampi, Luotettavampi, ja akku
+        ystävällisempi. Valitse vain Google jos haluat käyttää Tasker komentoja tai sinulla on
+        tunnuslause eri kielellä
+    </string>
+
+    <string name="speech_engine_settings">Puheentunnistus moottorin asetukset</string>
+
+    <string name="sensitivity">Herkkyys</string>
+
+    <string name="sensitivity_description">Hallitse kuinka herkkä puheen tunnistus on
+        tunnuslauseelle
+    </string>
+
+    <string name="pocketsphinx">PocketSpihnx (Oletusarvo)</string>
+
+    <string name="google">Google</string>
+
+    <string name="welcome_pocketsphinx">Tapaa pochetSphinx</string>
+
+    <string name="pocketsphinx_tasker">PocketSphinx ei tue Tasker komentoa vielä. Ole hyvä ja vaihda
+        puhemoottori Googleksi
+    </string>
+
+    <string name="overlay">Google Now herätys animaatio</string>
+
+    <string name="read_messages">Lue tekstiviestit</string>
+
+    <string name="read_messages_summary">Lue tekstiviestit ääneen kun Open Mic+ kuuntelee</string>
+
+    <string name="shake_detection">Ravistus Tunnistus</string>
+
+    <string name="shake_missing">Pahoittelen mutta laitteessasi ei ole kiihtyvyysanturia joka
+        tarvitaan ravistus tunnistukseen
+    </string>
+
+    <string name="hotphrase_validated">Tunnuslause vahvistettu</string>
+
+    <string name="hotphrase_invalidated">Tunnuslause ei sisällä Englanninkielistä sanaa. Olehyvä ja
+        vaihda puhemoottori Googleksi jos tämä on kansainvälinen. Tunnuslause on resetoitu Okay
+        Google:ksi
+    </string>
+
+    <string name="hotphrase_validating">Tunnistaa Tunnuslausetta... Tämä voi viedä hetken...
+    </string>
+</resources>

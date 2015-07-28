@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated on Sunday, 02. February 2014 05:40AM by lokaligo.com -->
+
+<resources>
+    <string name="app_name">Open Mic +</string>
+
+    <string name="title_activity_donate">Fai una donazione</string>
+
+    <string name="start">Inizio</string>
+
+    <string name="stop">Arresto</string>
+
+    <string name="action_question">Cosa ti piacerebbe questa azione di facesse?</string>
+
+    <string name="toggle">Toggle</string>
+
+    <string name="enable_screen_off">Abilitare l\'ascolto a schermo spento</string>
+
+    <string name="disable_screen_off">Disabilitare ascolto a schermo spento</string>
+
+    <string name="ok">OK</string>
+
+    <string name="cancel">Annulla</string>
+
+    <string name="tasker_install">È necessario prima installare Tasker per configurare i comandi
+        personalizzati
+    </string>
+
+    <string name="proximity_missing">Spiacente il tuo dispositivo non dispone di un sensore di
+        prossimità
+    </string>
+
+    <string name="no_commands">Nessun comando presente...</string>
+
+    <string name="add_tasker_command">Aggiungi comando Tasker</string>
+
+    <string name="you_have_no_tasker_tasks_please_ensure_that_tasker_misc_allow_external">Non ci
+        sono attività Tasker ... Assicurarsi che Tasker> Varie> Consenti accesso esterno sia
+        abilitato
+    </string>
+
+    <string name="please_enter_command_phrase_">Inserisci una frase comando ...</string>
+
+    <string name="edit_tasker_command">Modifica Comando Tasker</string>
+
+    <string name="you_have_no_tasker_tasks_">Non ci sono attività Tasker ...</string>
+
+    <string name="delete">Cancella</string>
+
+    <string name="tasker_command_executed_">Comando Tasker eseguito:</string>
+
+    <string name="tasker_not_ready_">Tasker non pronto ...</string>
+
+    <string name="add">Aggiungi</string>
+
+    <string name="donate">Fai una donazione</string>
+
+    <string name="hot_phrase_detection">Rilevazione Parola Chiave</string>
+
+    <string name="listen_for_your_specified_hot_phrase_the_default_is_okay_google">In ascolto della
+        parola chiave specificata, il valore predefinito è Okay Google
+    </string>
+
+    <string name="wave_detection">Rilevamento Gesti</string>
+
+    <string name="wave_your_hand_back_and_forth_directly_over_the_forward_facing_camera">Muovere la
+        mano avanti e indietro direttamente sopra la fotocamera frontale
+    </string>
+
+    <string name="say_this_to_activate_open_mic_">Dire questo per attivare Open Mic+:</string>
+
+    <string name="hot_phrase">Parola Chiave</string>
+
+    <string name="english_optimization">Ottimizzazione Lingua Inglese</string>
+
+    <string name="optimize_hot_phrase_recognition_for_english">Ottimizzare il riconoscimento della
+        parola chiave in Inglese
+    </string>
+
+    <string name="listen_while_screen_off">Ascolto a Schermo Spento</string>
+
+    <string
+        name="enabling_this_will_greatly_increase_power_consumption_listening_will_continue_even_when_the_screen_is_off">
+        L\'attivazione aumenterà notevolmente i consumi, l\'ascolto continuerà anche quando lo
+        schermo è spento
+    </string>
+
+    <string name="start_on_boot">Avvia all\'accensione</string>
+
+    <string name="start_listening_as_soon_as_the_device_has_started">Inizia l\'ascolto appena il
+        dispositivo è acceso
+    </string>
+
+    <string name="hide_notification">Nascondi Notifica</string>
+
+    <string name="tasker">Tasker</string>
+
+    <string name="general">Generale</string>
+
+    <string name="activation">Attivazione</string>
+
+    <string name="tasker_commands">Comandi Tasker</string>
+
+    <string name="custom_commands_using_tasker">Comandi personalizzati di Tasker</string>
+
+    <string name="hide_tasker_executed_messages">Nascondi i messaggi eseguiti da Tasker</string>
+
+    <string name="dont_show_a_message_when_a_tasker_command_is_executed_using_open_mic_">Non
+        mostrare un messaggio quando un comando Tasker è eseguito utilizzando Open Mic +
+    </string>
+
+    <string name="pause">Pausa</string>
+
+    <string name="open_mic_paused">Open Mic + in pausa</string>
+
+    <string name="swipe_away_to_stop">Scorrere per disattivare</string>
+
+    <string name="resume">Riprendi</string>
+
+    <string name="vibration_feedback">Ritorno di Vibrazione</string>
+
+    <string name="vibration_feedback_description">Vibra leggermente quando la parola chiave o il
+        passaggio della mano viene rilevato
+    </string>
+
+    <string name="listen_charging">Ascolta durante la carica</string>
+
+    <string name="listen_charging_description">Attiva automaticamente durante la carica e disattiva
+        quando scollegato
+    </string>
+
+    <string name="toggle_launch">Attiva all\'avvio</string>
+
+    <string name="toggle_launch_description">Aprendo l\'applicazione si avvierà/fermerà l\'ascolto
+    </string>
+
+    <string name="listen_only_screen_off">Ascolta solamente a schermo spento</string>
+
+    <string name="listen_only_screen_off_description">Disattiva l\'ascolto quando lo schermo è
+        spento,questo è utile quando si utilizza Android 4.4 Kitkat
+    </string>
+
+    <string name="listen_screen_off_charging">Ascolta se lo schermo è spento durante la carica
+    </string>
+
+    <string name="listen_screen_off_charging_description">Avvia solo se lo schermo è spento e il
+        telefono in carica, altrimenti avvia solo se lo schermo è acceso
+    </string>
+
+    <string name="donate_only">Spiacente questa opzione è disponibile solo nella versione \"Donate\"
+        dell\' applicazione la quale ripaga il mio tempo speso nello sviluppo
+    </string>
+
+    <string name="use_gettasks">Riconoscimento della parola chiave di
+        default per Google Now
+    </string>
+
+    <string name="use_gettasks_summary">Usa la parola chiave di default
+        per Google Now durante una ricerca. Questo rende Open Mic+ più
+        reattivo, ma funziona solamente se la lingua impostata è US-English e
+        implica che bisogna pronunciare \"Okay Google\" durante una ricerca su
+        Google Now
+    </string>
+
+    <string name="yes">Si</string>
+
+    <string name="no">No</string>
+</resources>

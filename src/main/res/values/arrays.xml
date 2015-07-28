@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="speech_engines">
+        <item>@string/pocketsphinx</item>
+        <item>@string/google</item>
+    </string-array>
+    <string-array name="speech_engine_values">
+        <item>pocketsphinx</item>
+        <item>google</item>
+
+    </string-array>
+    <string-array name="sensitivity">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+</resources>

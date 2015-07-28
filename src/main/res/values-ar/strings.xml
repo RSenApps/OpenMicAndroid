@@ -1,0 +1,108 @@
+<resources>
+
+    <string name="app_name">"Open Mic+"</string>
+    <string name="title_activity_donate">"تبرع
+        "
+    </string>
+    <string name="start">"إبدأ"</string>
+    <string name="stop">"إيقاف "</string>
+    <string name="action_question">"ماذا تريد ان يفعل هذا الاجراء؟"</string>
+    <string name="toggle">"تبديل"</string>
+    <string name="enable_screen_off">"تمكين الاستماع في وضع الشاشة المغلقة"</string>
+    <string name="disable_screen_off">"تعطيل الاستماع عندما تكون الشاشة مغلقة."</string>
+    <string name="ok">"موافق"</string>
+    <string name="cancel">"إلغاء"</string>
+    <string name="troubleshooting">"حل المشاكل"</string>
+    <string name="support">"إذا كنت تبلغ عن مشكلة، يرجى اتباع الخطوات التالية أولا. شكرا لمساعدتكم:!
+        اولا : مراجعة صفحة الدعم، للاسترشاد والمشاكل التى تم الرد عليها
+        ثانيا : جوجل الآن إعدادات&gt; صوت&gt; تمكين التعرف الشخصي والغير متصل.
+        ثالثا : حاول تغيير العبارة الساخنة إلى شيء بسيط مثل navigate
+        رابعا : تأكد من أنك تلوح بيدك جيئة وذهابا، مباشرة عبر الكاميرا التى توجد فى الوجهة الامامية
+        خامسا : إذا كنت تواجه مشكلة، حاول تعطيل الاستماع فى حالة الشاشة المغلقة وتمكين الإخطار.
+        إذا لا تزال تواجه مشكلة، الرجاء الاستمرار، ولكن نأمل هذا سيسمح لي لقضاء المزيد من الوقت في
+        تنفيذ الميزات الجديدة بدلا من الرد على طلبات الدعم! شكرا مرة أخرى!"
+    </string>
+    <string name="solved">"حل مشكلتي"</string>
+    <string name="support_page">"صفحة الدعم"</string>
+    <string name="send_email">"إرسال بريد الإلكتروني"</string>
+    <string name="tasker_install">"يجب عليك أولا تثبيت تاسكر لتكوين أوامر مخصصة"</string>
+    <string name="proximity_missing">"آسف لا يملك الجهاز جهاز استشعار القرب الذي هو مطلوب من أجل
+        الكشف عن التلويح باليد"
+    </string>
+    <string name="no_commands">"لا أوامر بعد ..."</string>
+    <string name="add_tasker_command">"إضافة أمر تاسكر"</string>
+    <string name="you_have_no_tasker_tasks_please_ensure_that_tasker_misc_allow_external">"لا يوجد
+        لديك مهام تاسكر ... الرجاء التأكد من أن تسكر&gt; منوعات&gt; السماح بتمكين الوصول الخارجي"
+    </string>
+    <string name="please_enter_command_phrase_">"الرجاء إدخال عبارة الأمر ..."</string>
+    <string name="edit_tasker_command">"تحرير اوامر تاسكر "</string>
+    <string name="you_have_no_tasker_tasks_">"لا يوجد لديك مهام تاسكر ..."</string>
+    <string name="delete">"مسح"</string>
+    <string name="tasker_command_executed_">"اوامر تاسكر المنفذة "</string>
+    <string name="tasker_not_ready_">"تاسكر ليس مستعد ..."</string>
+    <string name="add">"إضافة"</string>
+    <string name="send_feedback">"أرسل ملاحظاتك"</string>
+    <string name="donate">"تبرع
+        "
+    </string>
+    <string name="hot_phrase_detection">"الكشف عن العبارة الساخنة"</string>
+    <string name="listen_for_your_specified_hot_phrase_the_default_is_okay_google">"الاستماع لعبارة
+        ساخنة محددة وخاصة بك، الافتراضي Okay Google"
+    </string>
+    <string name="wave_detection">"كشف التلويح باليد"</string>
+    <string name="wave_your_hand_back_and_forth_directly_over_the_forward_facing_camera">"لوح بيدك
+        ايابا وذهابا مباشرة عبر الكاميرا المتواجدة فى الواجهة الامامية"
+    </string>
+    <string name="say_this_to_activate_open_mic_">"أقول هذا لتفعيل Open Mic+:"</string>
+    <string name="hot_phrase">"العبارة الساخنة"</string>
+    <string name="english_optimization">"الامثل الإنجليزية "</string>
+    <string name="optimize_hot_phrase_recognition_for_english">"تحسين العبارة الساخنة للغة
+        الانجليزية"
+    </string>
+    <string name="listen_while_screen_off">"الاستماع في وضع الشاشة المغلقة"</string>
+    <string
+        name="enabling_this_will_greatly_increase_power_consumption_listening_will_continue_even_when_the_screen_is_off">
+        " تفعيل هذا سوف يزيد بشكل كبير من استهلاك الطاقة، والاستماع سيستمر حتى في وضع الشاشة
+        المغلقة"
+    </string>
+    <string name="start_on_boot">"بدء مع تشغيل الجهاز"</string>
+    <string name="start_listening_as_soon_as_the_device_has_started">"بدء الاستماع عندما يبدأ
+        الجهاز"
+    </string>
+    <string name="hide_notification">"إخفاء الإخطارات"</string>
+    <string name="will_hide_notification_but_also_means_open_mic_is_much_more_likely_to_be_killed_">
+        "سوف يخفي الإخطار، ولكن يعني أيضا تطبيق Open Mic+ سيكون أكثر عرضة للقتل ..."
+    </string>
+    <string name="tasker">"Tasker"</string>
+    <string name="general">"بوجه عام"</string>
+    <string name="activation">"تفعيل"</string>
+    <string name="tasker_commands">"أوامر تاسكر"</string>
+    <string name="custom_commands_using_tasker">"أوامر مخصصة باستخدام تاسكر"</string>
+    <string name="hide_tasker_executed_messages">"إخفاء رسائل تاسكر المنفذة"</string>
+    <string name="dont_show_a_message_when_a_tasker_command_is_executed_using_open_mic_">"لا تظهر
+        رسالة عند تنفيذ اوامر تاسكر مستخدما Open Mic+ ."
+    </string>
+    <string name="vibration_feedback">ملاحظات الاهتزاز</string>
+    <string name="vibration_feedback_description">يهتز لفترة وجيزة عندما يتم التعرف على العبارة
+        الساخنة او التلويح باليد
+    </string>
+    <string name="listen_charging">. الاستماع اثناء الشحن</string>
+    <string name="listen_charging_description">تشغيل الاستماع تلقائيا اثناء الشحن وايقافه عند فصل
+        الشاحن
+    </string>
+    <string name="toggle_launch">التوصيل عند الفتح</string>
+    <string name="toggle_launch_description">عند فتح التطبيق سوف يبدأ/يوقف الاستماع</string>
+    <string name="listen_only_screen_off">الاستماع فى وضع الشاشة المغلقة</string>
+    <string name="listen_only_screen_off_description">تتشغيل الاستماع عندما تكون الشاشة مغلقة ، مفيد
+        عند استخدامك لاندرويد 4.4 كيتكات
+    </string>
+    <string name="listen_screen_off_charging">الاستماع عندما تكون الشاشة مغلقة , فى وضع الشحن
+    </string>
+    <string name="listen_screen_off_charging_description">التشغيل فقط عندما تكون الشاشة مغلقة اذا
+        كان الجهاز فى وضع الشحن ، او سيتم التشغيل فقط إذا كانت الشاشة فى وضع التشغيل
+    </string>
+    <string name="donate_only">عفوا هذة الخاصية مفعلة فقط فى النسخة المدفوعة والتي تساعدني فى تبرير
+        الوقت الذي اقضيه فى تطوير التطبيق
+    </string>
+
+</resources>

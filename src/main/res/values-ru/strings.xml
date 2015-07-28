@@ -1,0 +1,118 @@
+<resources>
+
+    <string name="app_name">"Open Mic+"</string>
+    <string name="title_activity_donate">"Пожертвовать"</string>
+    <string name="start">"Начать"</string>
+    <string name="stop">"Стоп"</string>
+    <string name="action_question">"Что вы хотите назначить на это действие?"</string>
+    <string name="toggle">"Переключить"</string>
+    <string name="enable_screen_off">"Включить распознавание во время выключеного экрана"</string>
+    <string name="disable_screen_off">"Отключить распознавание во время выключеного экрана"</string>
+    <string name="ok">"ОК"</string>
+    <string name="cancel">"Отмена"</string>
+    <string name="troubleshooting">"Поиск и устранение неисправностей"</string>
+    <string name="support">"Перед тем как отправить сообщение о неисправности, попробуйте исправить
+        проблему этими способами: \ n1. Проверьте страницу поддержки и гайды на наличие ответов на
+        ваш вопрос 2. Настройки Google Now&gt; Голосовой поиск&gt; Включить распознавание речи
+        офлайн. \ N3. Попробуйте изменить ключевую фразу на что-то попроще. \ N4. Убедитесь, что вы
+        движете ладонью прямо перед фронтальной камерой. \ N5. Если у вас возникли проблемы,
+        попробуйте отключить распознавание при выключеном экране. \ N \ nЕсли у Вас все еще
+        возникают проблемы, отправьте сообщение об ошибке."
+    </string>
+    <string name="solved">"Решить проблему"</string>
+    <string name="support_page">"Страница поддержки"</string>
+    <string name="send_email">"Написать письмо"</string>
+    <string name="tasker_install">"Необходимо установить Tasker для настройки пользовательских
+        команд"
+    </string>
+    <string name="proximity_missing">"На вашем устройстве отсутствует датчик для обнаружения
+        движений"
+    </string>
+    <string name="no_commands">"Отсутствует команда..."</string>
+    <string name="add_tasker_command">"Добавить команду для Tasker"</string>
+    <string name="you_have_no_tasker_tasks_please_ensure_that_tasker_misc_allow_external">
+        "Отсутсвуют задачи для Tasker... Проверьте Tasker&gt;Разное&gt;Разрешить внешний доступ -
+        включено"
+    </string>
+    <string name="please_enter_command_phrase_">"Пожалуйста, введите команду..."</string>
+    <string name="edit_tasker_command">"Редактировать команду для Tasker"</string>
+    <string name="you_have_no_tasker_tasks_">"Отсутсвуют задачи для Tasker..."</string>
+    <string name="delete">"Удалить"</string>
+    <string name="tasker_command_executed_">"Выполняемая команда для Tasker: "</string>
+    <string name="tasker_not_ready_">"Tasker не готов..."</string>
+    <string name="add">"Добавить"</string>
+    <string name="send_feedback">"Отправить отзыв"</string>
+    <string name="donate">"Пожертвовать"</string>
+    <string name="hot_phrase_detection">"Распознавание ключевой фразы"</string>
+    <string name="listen_for_your_specified_hot_phrase_the_default_is_okay_google">"Взаимодействие
+        через ключевую фразу. По умолчанию: \"Окей Google\""
+    </string>
+    <string name="wave_detection">"Взмах ладони"</string>
+    <string name="wave_your_hand_back_and_forth_directly_over_the_forward_facing_camera">"Проведите
+        рукой вперед и назад перед фронтальной камерой"
+    </string>
+    <string name="say_this_to_activate_open_mic_">"Ключевая фраза для Open Mic+:"</string>
+    <string name="hot_phrase">"Ключевая фраза"</string>
+    <string name="english_optimization">"Оптимизация для англ. языка"</string>
+    <string name="optimize_hot_phrase_recognition_for_english">"Оптимизировать ключевую фразу для
+        английского языка"
+    </string>
+    <string name="listen_while_screen_off">"Распознавание при выключеном экране"</string>
+    <string
+        name="enabling_this_will_greatly_increase_power_consumption_listening_will_continue_even_when_the_screen_is_off">
+        "Включение этого параметра значительно увеличивает потребление энергии, прослушивание будет
+        продолжаться даже когда экран выключен"
+    </string>
+    <string name="start_on_boot">"Запуск при загрузке"</string>
+    <string name="start_listening_as_soon_as_the_device_has_started">"Начать распознавание, как
+        только устройство включится"
+    </string>
+    <string name="hide_notification">"Скрыть уведомление"</string>
+    <string name="will_hide_notification_but_also_means_open_mic_is_much_more_likely_to_be_killed_">
+        "Скрывает иконку в строке уведомлений, но повышает шанс отключения Open Mic..."
+    </string>
+    <string name="tasker">"Tasker"</string>
+    <string name="general">"Общее"</string>
+    <string name="activation">"Активация"</string>
+    <string name="tasker_commands">"Команды для Tasker"</string>
+    <string name="custom_commands_using_tasker">"Пользовательские команды для Tasker"</string>
+    <string name="hide_tasker_executed_messages">"Скрыть выполненные сообщения для Tasker"</string>
+    <string name="dont_show_a_message_when_a_tasker_command_is_executed_using_open_mic_">"Не
+        показывают сообщение, когда команда Tasker выполняется с использованием Open Mic+"
+    </string>
+    <string name="pause">"Пауза"</string>
+    <string name="open_mic_paused">"Open Miс+ Приостановлен"</string>
+    <string name="swipe_away_to_stop">"Сделайте свайп для остановки"</string>
+    <string name="resume">"Возобновить"</string>
+    <string name="vibration_feedback">"Вибрационная обратная связь"</string>
+    <string name="vibration_feedback_description">"Вибрация на короткое время при распознавании
+        фразы или жеста"
+    </string>
+    <string name="listen_charging">"Распознавание во время зарядки"</string>
+    <string name="listen_charging_description">"Автоматическое включение прослушивания во время
+        зарядки и остановка при отключеннии"
+    </string>
+    <string name="toggle_launch">"Переключение при запуске"</string>
+    <string name="toggle_launch_description">"При открытии приложения включается/отключается
+        прослушивание"
+    </string>
+    <string name="listen_only_screen_off">"Распознавание только при выключеном экране"</string>
+    <string name="listen_only_screen_off_description">"Включение прослушивания, только когда экран
+        выключен, это полезно при использовании в Android 4.4 Kitkat"
+    </string>
+    <string name="listen_screen_off_charging">"Распознавание во время выключенного экрана при
+        зарядке"
+    </string>
+    <string name="listen_screen_off_charging_description">"Прослушивание только когда экран выключен
+        и устройство заряжается, в противном случае прослушивание активно только когда экран
+        включен"
+    </string>
+    <string name="donate_only">"Извините, эта функция доступна только в Премимум версии"</string>
+    <string name="use_gettasks">"Стандартная фраза Google Now для распознавания"</string>
+    <string name="use_gettasks_summary">"Использовать стандартную фразу Google Now как ключевую. Это
+        делает Open Mic+ более надежным, но работает только с англ. языком и означает, что вы должны
+        сказать \"Okay Google\" в Google Now"
+    </string>
+    <string name="yes">"Да"</string>
+    <string name="no">"Нет"</string>
+</resources>

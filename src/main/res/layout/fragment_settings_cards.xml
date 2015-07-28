@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.RSen.OpenMic.Pheonix.SettingsCardsFragment">
+
+    <LinearLayout
+        android:id="@+id/card_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#15000000"
+        android:orientation="vertical" />
+
+    <it.gmariotti.cardslib.library.extra.staggeredgrid.view.CardGridStaggeredView
+        android:id="@+id/card_list_view"
+        android:layout_width="match_parent" android:layout_height="match_parent"
+        android:clipToPadding="false" android:paddingTop="10dp"
+        android:scrollbarStyle="outsideOverlay"
+        card:column_count="@integer/grid_col"
+        card:item_margin="4dp" />
+
+</LinearLayout>

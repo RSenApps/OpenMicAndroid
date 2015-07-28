@@ -1,0 +1,8 @@
+models/hmm/hub4wsj_sc_8k/feat.params
+models/hmm/hub4wsj_sc_8k/mdef
+models/hmm/hub4wsj_sc_8k/means
+models/hmm/hub4wsj_sc_8k/noisedict
+models/hmm/hub4wsj_sc_8k/sendump
+models/hmm/hub4wsj_sc_8k/transition_matrices
+models/hmm/hub4wsj_sc_8k/variances
+models/lm/hub4.5000.dic

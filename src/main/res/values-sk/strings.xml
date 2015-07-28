@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated on Sunday, 06. April 2014 05:21PM by lokaligo.com -->
+
+<resources>
+    <string name="app_name">Open Mic+</string>
+
+    <string name="title_activity_donate">Podporiť</string>
+
+    <string name="start">Spustiť</string>
+
+    <string name="stop">Zastaviť</string>
+
+    <string name="action_question">Čo by ste chceli, aby táto akcia robila?</string>
+
+    <string name="toggle">Prepnúť</string>
+
+    <string name="enable_screen_off">Povoliť počúvanie pri vypnutej obrazovke</string>
+
+    <string name="disable_screen_off">Zakázať počúvanie pri vypnutej obrazovke</string>
+
+    <string name="ok">OK</string>
+
+    <string name="cancel">Zrušiť</string>
+
+    <string name="tasker_install">Musíte najprv nainštalovať Tasker pre nastavenie vlastných
+        príkazov
+    </string>
+
+    <string name="proximity_missing">Je nám ľúto, váš prístroj nemá proximity senzor, ktorý je
+        potrebný pre detekciu pohybu
+    </string>
+
+    <string name="no_commands">Zatiaľ žiadne príkazy...</string>
+
+    <string name="add_tasker_command">Pridať Tasker príkaz</string>
+
+    <string name="you_have_no_tasker_tasks_please_ensure_that_tasker_misc_allow_external">Nemáte
+        žiadne Tasker úlohy... Uistite sa, že Tasker>Preferences>Misc>Allow External Access je
+        povolený
+    </string>
+
+    <string name="please_enter_command_phrase_">Prosím zadajte frázu...</string>
+
+    <string name="edit_tasker_command">Upraviť Tasker príkaz</string>
+
+    <string name="you_have_no_tasker_tasks_">Nemáte žiadne Tasker úlohy...</string>
+
+    <string name="delete">Vymazať</string>
+
+    <string name="tasker_command_executed_">Tasker príkaz vykonaný:</string>
+
+    <string name="tasker_not_ready_">Tasker nie je pripravený...</string>
+
+    <string name="add">Pridať</string>
+
+    <string name="donate">Podporiť</string>
+
+    <string name="hot_phrase_detection">Detekcia frázy</string>
+
+    <string name="listen_for_your_specified_hot_phrase_the_default_is_okay_google">Počúvanie vašej
+        frázy, predvolená je \"Okay Google\"
+    </string>
+
+    <string name="wave_detection">Detekcia pohybu</string>
+
+    <string name="wave_your_hand_back_and_forth_directly_over_the_forward_facing_camera">Mávnite
+        rukou tam a späť priamo nad prednou kamerou
+    </string>
+
+    <string name="say_this_to_activate_open_mic_">Povedzte toto pre aktiváciu Open Mic+:</string>
+
+    <string name="hot_phrase">Fráza</string>
+
+    <string name="english_optimization">Optimalizácia angličtiny</string>
+
+    <string name="optimize_hot_phrase_recognition_for_english">Optimalizuje rozpoznanie frázy pre
+        angličtinu
+    </string>
+
+    <string name="listen_while_screen_off">Počúvanie pri vypnutej obrazovke</string>
+
+    <string
+        name="enabling_this_will_greatly_increase_power_consumption_listening_will_continue_even_when_the_screen_is_off">
+        Ak je povolené, počúvanie bude pokračovať pri vypnutej obrazovke, zvýši sa spotreba energie!
+    </string>
+
+    <string name="start_on_boot">Spustiť po štarte zariadenia</string>
+
+    <string name="start_listening_as_soon_as_the_device_has_started">Začne počúvať, keď sa
+        zariadenie spustí
+    </string>
+
+    <string name="hide_notification">Skryť oznámenia</string>
+
+    <string name="tasker">Tasker</string>
+
+    <string name="general">Všeobecné</string>
+
+    <string name="activation">Aktivácia</string>
+
+    <string name="tasker_commands">Tasker príkazy</string>
+
+    <string name="custom_commands_using_tasker">Vlastné príkazy pomocou Taskera</string>
+
+    <string name="hide_tasker_executed_messages">Skryť správy o vykonaní Tasker príkazu</string>
+
+    <string name="dont_show_a_message_when_a_tasker_command_is_executed_using_open_mic_">Nezobrazí
+        správu, po vykonaní Tasker príkazu pomocou Open Mic+
+    </string>
+
+    <string name="pause">Pauza</string>
+
+    <string name="open_mic_paused">Open Mic+ je pozastavený</string>
+
+    <string name="swipe_away_to_stop">Posuňte pre zastavenie</string>
+
+    <string name="resume">Pokračovať</string>
+
+    <string name="vibration_feedback">Vibračná spätná väzba</string>
+
+    <string name="vibration_feedback_description">Krátko zavibruje keď je rozpoznaná fráza, alebo
+        mávnutie
+    </string>
+
+    <string name="listen_charging">Počúvať pri nabíjaní</string>
+
+    <string name="listen_charging_description">Automaicky spustí počúvanie pri pripojení nabíjačky a
+        zastaví pri odpojení
+    </string>
+
+    <string name="toggle_launch">Prepnúť po spustení</string>
+
+    <string name="toggle_launch_description">Otvorenie aplikácie spustí/zastaví počúvanie</string>
+
+    <string name="listen_only_screen_off">Počúvať len keď je obrazovka vypnutá</string>
+
+    <string name="listen_only_screen_off_description">Začne počúvať po vypnutí obrazovky, toto je
+        užitočné ak používate Android 4.4
+    </string>
+
+    <string name="listen_screen_off_charging">Počúvať ak je obrazovka vypnutá a nabíja sa</string>
+
+    <string name="listen_screen_off_charging_description">Počúva iba ak je obrazovka vypnutá a
+        zariadenie sa nabíja. Inak počúva pri zapnutej obrazovke
+    </string>
+
+    <string name="donate_only">Ospravedlňujem sa, táto funkcia je prístupná iba v platenej verzii.
+    </string>
+
+    <string name="use_gettasks">Predvolené rozpoznávanie Google Now</string>
+
+    <string name="use_gettasks_summary">Použije predvolené rozpoznávanie v Google Now. To urobí Open
+        Mic+ spoľahlivejším, ale funguje to iba ak máte nastavený jazyk na US-English a znamená to
+        aj, že musíte povedať \"Okay Google\" keď ste v Google Now.
+    </string>
+
+    <string name="yes">Áno</string>
+
+    <string name="no">Nie</string>
+
+    <string name="blacklist">Zakázané aplikácie</string>
+
+    <string name="blacklist_summary">Open Mic+ vás nebude počúvať ak sú spustené nasledujúce
+        aplikácie. Odporúčam vybrať hry a aplikácie, ktoré využívajú mikrofón.
+    </string>
+
+    <string name="relock">Zamknúť</string>
+
+    <string name="relock_summary">Znovu zamkne obrazovku po ukončení Google Now</string>
+
+    <string name="su">Skryť oznámenie (Root)</string>
+
+    <string name="su_summary">Úplne odstráni oznámenie pre zariadenia s root</string>
+
+    <string name="no_su">Root prístup zlyhal...</string>
+
+    <string name="tasker_guide">Návod Tasker</string>
+
+    <string name="tasker_guide_message">NÁVOD TASKER:\n
+        Niektorí užívatelia požadovali viac informácií ako spojiť Tasker s Open Mic, tak je to tu
+        :)\n
+        \n
+        Spustenie a zastavenie počúvania s Taskerom:\n
+        1. Uistite sa, že máte aplikáciu Tasker nainštalovanú (viď tlačítka na spodu)\n
+        2. Tasks>New\n
+        3. New Action\n
+        4. Plugin\n
+        5. Open Mic+ - Toggle Listening\n
+        6. Kliknite na Edit\n
+        6. Teraz, keď ste vytvorili akciu, môžete ju spojiť s profilom pre prepínanie počúvania\n
+        \n
+        Spustiť úlohu s vlastnou frázou\n
+        1. Uistite sa, že máte aplikáciu Tasker nainštalovanú (viď tlačítka na spodu)\n
+        2. Preferences\n
+        3. Misc\n
+        4. Enable Allow External Access\n
+        5. Vytvorte úlohu (Task) s požadovanou akciou\n
+        6. Otvorte Open Mic+\n
+        7. Nastavenia\n
+        8. Tasker príkazy\n
+        9. Pridať\n
+        10. Pridajte frázu\n
+        11. Zvoľte Tasker ptríkaz z ponuky\n
+        12. Hotovo!
+    </string>
+
+    <string name="support_menu">Podpora</string>
+
+    <string name="log_copied">Váš záznam bol skopírovaný. Prosím, vložte ho do príslušných žiadostí
+        o podporu
+    </string>
+
+    <string name="bluetooth">Bluetooth Headset</string>
+
+    <string name="bluetooth_description">Nahráva audio cez Bluetooth headset, ak je dostupné.
+        Prosím, uistite sa, že je táto možnosť povolená aj v nastaveniach Google Now
+    </string>
+
+    <string name="turn_off_screen">Vypnúť obrazovku</string>
+
+    <string name="turn_off_screen_description">Vypne obrazovku po 30 sekundách nečinnosti, ak bola
+        aktivaná touto aplikáciou
+    </string>
+
+    <string name="google_update_title">Aktualizácia Google Now</string>
+
+    <string name="google_update_message">Je dostupná aktualizácia pre Google Now, ktorá zlepší Open
+        Mic+!\nPrajete si ju stiahnuť?
+    </string>
+
+    <string name="hello">Ahoj</string>
+
+    <string name="speech_engine">Nástroj pre rozpoznávanie reči</string>
+
+    <string name="speech_engine_description">PocketSphinx je rýchlejší, spoľahlivejší a menej
+        náročný na batériu. Google zvoľte iba ak používate príkazy pre Tasker, alebo ak máte frázu v
+        inom jazyku
+    </string>
+
+    <string name="speech_engine_settings">Nastavenia nástroja pre rozpoznávanie reči</string>
+
+    <string name="sensitivity">Citlivosť</string>
+
+    <string name="sensitivity_description">Určuje, ako citlivé bude rozpoznávanie reči k fráze
+    </string>
+
+    <string name="pocketsphinx">PocketSphinx (predvolené)</string>
+
+    <string name="google">Google</string>
+
+    <string name="welcome_pocketsphinx">Zoznámte sa s PocketSphinx</string>
+
+    <string name="pocketsphinx_tasker">PocketSphinx zatiaľ nepodporuje príkazy pre Tasker, prosím
+        zmeňte nástroj na Google
+    </string>
+
+    <string name="overlay">Animácia Google Now</string>
+
+    <string name="read_messages">Čítať textové správy</string>
+
+    <string name="read_messages_summary">Prečíta textové správy keď Open Mic+ počúva</string>
+
+    <string name="shake_detection">Zisťovanie zatrasenia</string>
+
+    <string name="shake_missing">Prepáčte, Vaše zariadenie nemá akcelerometer, ktorý je potrebný pre
+        zisťovanie zatrasenia
+    </string>
+
+    <string name="hotphrase_validated">Fráza overená...</string>
+
+    <string name="hotphrase_invalidated">Fráza obsahuje iné ako anglické slová, prosím zmeňte
+        nástroj pre rozpoznávanie reči na Google. Fráza sa obnoví na Okay Google...
+    </string>
+
+    <string name="hotphrase_validating">Overovanie frázy... Táto operácia môže chvíľu trvať...
+    </string>
+</resources>

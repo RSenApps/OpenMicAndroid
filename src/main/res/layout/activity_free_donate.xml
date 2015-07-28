@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent"
+    android:orientation="vertical" android:padding="10dp">
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Complete 2 out of 3 to unlock all donate features:"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button android:id="@+id/facebook" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:layout_gravity="center_horizontal"
+        android:text="Share on Facebook" />
+
+    <Button android:id="@+id/twitter" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:layout_gravity="center_horizontal"
+        android:text="Share on Twitter" />
+
+    <Button android:id="@+id/google" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:layout_gravity="center_horizontal"
+        android:text="Share on Google+" />
+
+    <TextView android:id="@+id/congratulations" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp" android:text="Congratulations!"
+        android:textAppearance="?android:attr/textAppearanceLarge" android:visibility="gone" />
+
+    <TextView android:id="@+id/congratulationsText" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center_horizontal" android:gravity="center_horizontal"
+        android:text="All donate features are now unlocked\nPlease note that uninstalling will remove these features..."
+        android:textAppearance="?android:attr/textAppearanceMedium" android:visibility="gone" />
+</LinearLayout>

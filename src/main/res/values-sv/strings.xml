@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated on Sunday, 06. April 2014 05:22PM by lokaligo.com -->
+
+<resources>
+    <string name="app_name">Open Mic+</string>
+
+    <string name="title_activity_donate">Donera</string>
+
+    <string name="start">Starta</string>
+
+    <string name="stop">Stoppa</string>
+
+    <string name="action_question">Vad vill du att denna åtgärd ska göra?</string>
+
+    <string name="toggle">Växla</string>
+
+    <string name="enable_screen_off">Aktivera Lyssna medan Skärm Av</string>
+
+    <string name="disable_screen_off">Inaktivera Lyssna medan Skärm Av</string>
+
+    <string name="ok">OK</string>
+
+    <string name="cancel">Avbryt</string>
+
+    <string name="tasker_install">Du måste först installera Tasker att konfigurera anpassade
+        kommandon
+    </string>
+
+    <string name="proximity_missing">Tyvärr, din enhet har inte en rörelsesensor som krävs för
+        rörelsedetektion
+    </string>
+
+    <string name="no_commands">Inga kommandon ännu ...</string>
+
+    <string name="add_tasker_command">Lägg till Tasker Kommando</string>
+
+    <string name="you_have_no_tasker_tasks_please_ensure_that_tasker_misc_allow_external">Du har
+        inga Tasker uppgifter ... Vänligen se till att Tasker> Övrigt> Tillåt extern åtkomst är
+        aktiverat
+    </string>
+
+    <string name="please_enter_command_phrase_">Ange kommandofras ...</string>
+
+    <string name="edit_tasker_command">Redigera Tasker Kommando</string>
+
+    <string name="you_have_no_tasker_tasks_">Du har inga Tasker uppgifter ...</string>
+
+    <string name="delete">Radera</string>
+
+    <string name="tasker_command_executed_">Tasker kommando som utförs:</string>
+
+    <string name="tasker_not_ready_">Tasker inte redo ...</string>
+
+    <string name="add">Lägg till</string>
+
+    <string name="donate">Donera</string>
+
+    <string name="hot_phrase_detection">Detektion av nyckelfras</string>
+
+    <string name="listen_for_your_specified_hot_phrase_the_default_is_okay_google">Lyssna efter din
+        angivna nyckelfras, default är Okej Google
+    </string>
+
+    <string name="wave_detection">Rörelsedetektion</string>
+
+    <string name="wave_your_hand_back_and_forth_directly_over_the_forward_facing_camera">För handen
+        fram och tillbaka direkt över framåtvända kameran
+    </string>
+
+    <string name="say_this_to_activate_open_mic_">Säg detta för att aktivera Open Mic+:</string>
+
+    <string name="hot_phrase">Nyckelfras</string>
+
+    <string name="english_optimization">Engelsk Optimering</string>
+
+    <string name="optimize_hot_phrase_recognition_for_english">Optimera igenkänning av nyckelfras
+        för engelska
+    </string>
+
+    <string name="listen_while_screen_off">Lyssna medan Skärm Av</string>
+
+    <string
+        name="enabling_this_will_greatly_increase_power_consumption_listening_will_continue_even_when_the_screen_is_off">
+        Aktivering av detta kommer att kraftigt öka strömförbrukningen, lyssning kommer att
+        fortsätta även när skärmen är avstängd
+    </string>
+
+    <string name="start_on_boot">Börja vid uppstart</string>
+
+    <string name="start_listening_as_soon_as_the_device_has_started">Börja lyssna så snart enheten
+        har startat
+    </string>
+
+    <string name="hide_notification">Göm Notifiering</string>
+
+    <string name="tasker">Tasker</string>
+
+    <string name="general">Allmänt</string>
+
+    <string name="activation">Aktivering</string>
+
+    <string name="tasker_commands">Tasker Kommandon</string>
+
+    <string name="custom_commands_using_tasker">Anpassade kommandon med Tasker</string>
+
+    <string name="hide_tasker_executed_messages">Göm Tasker Genomförda Meddelanden</string>
+
+    <string name="dont_show_a_message_when_a_tasker_command_is_executed_using_open_mic_">Visa ej ett
+        meddelande när ett Tasker kommando utförs med hjälp av Open Mic+
+    </string>
+
+    <string name="pause">Paus</string>
+
+    <string name="open_mic_paused">Open Mic+ Paused</string>
+
+    <string name="swipe_away_to_stop">Svep bort för att stoppa</string>
+
+    <string name="resume">Återuppta</string>
+
+    <string name="vibration_feedback">Vibrationsåterkoppling</string>
+
+    <string name="vibration_feedback_description">Vibrera kort när en nyckelfras eller handrörelse
+        känns igen
+    </string>
+
+    <string name="listen_charging">Lyssna under laddning</string>
+
+    <string name="listen_charging_description">Starta Lyssna vid Skärm av när enheten laddas och
+        deaktivera vid urkoppling
+    </string>
+
+    <string name="toggle_launch">Växla vid start</string>
+
+    <string name="toggle_launch_description">Lyssning startar/stoppas när appen startar</string>
+
+    <string name="listen_only_screen_off">Lyssna Endast vid Skärm Av</string>
+
+    <string name="listen_only_screen_off_description">Aktiverar lyssning när skärmen är avstängd,
+        detta är användbart i Android 4.4 Kitkat
+    </string>
+
+    <string name="listen_screen_off_charging">Lyssna vid Skärm Av under Laddning</string>
+
+    <string name="listen_screen_off_charging_description">Lyssning sker endast när skärmen är
+        avstängd och telefonen laddas, annars endast när skärmen är på
+    </string>
+
+    <string name="donate_only">Ledsen, detta är endast tillgängligt i Donationsversionen som hjälper
+        mig att rättfärdiga tiden som ägnas åt utveckling
+    </string>
+
+    <string name="use_gettasks">Standard Google Now Nyckelord-Igenkänning</string>
+
+    <string name="use_gettasks_summary">Använd standard Google Now nyckelord-igenkänning inne i
+        Google Now. Detta gör Open Mic+ mer tillförlitligt, men fungerar bara om ditt språk är satt
+        till US-English och betyder att du behöver säga \"Okay Google\" inne i Google Now
+    </string>
+
+    <string name="yes">Ja</string>
+
+    <string name="no">Nej</string>
+
+    <string name="blacklist">Svartlistade appar</string>
+
+    <string name="blacklist_summary">Open Mic+ kommer inte att lyssna när du använder någon av
+        följande appar. Rekommenderas att välja högintensiva spel och appar som använder mikrofonen.
+    </string>
+
+    <string name="relock">Återställ lås</string>
+
+    <string name="relock_summary">Lås skärmen efter stängning av Google Now</string>
+
+    <string name="su">Göm notifiering (Rot)</string>
+
+    <string name="su_summary">Göm notifiering helt på rotade telefoner Completely</string>
+
+    <string name="no_su">Ledsen, rotåtkomst misslyckades...</string>
+
+    <string name="tasker_guide">Tasker Guide</string>
+
+    <string name="tasker_guide_message">Tasker hjälp:
+        En del användare har efterfrågat mer information om att integrera Tasker med Open Mic, så
+        här kommer det :)
+        Starta och stoppa lyssning med Tasker:
+        1. Se till att Tasker är installerad på din enhet (see knappar nedan)
+        2. Tasks>New
+        3. New Action
+        4. Plugin
+        5. Open Mic+ - Toggle Listening
+        6. Klicka på redigera (ska nu visa Ready)
+        6. När du nu har skapat en handling kan du länka den med en profil för att växla lyssning
+
+        Kör en Task med en egen lyssningsfras
+        1. Se till att Tasker är installerad på din enhet (see knappar nedan)
+        2. Preferences
+        3. Misc
+        4. Aktivera Allow External Access
+        6. Öppna Open Mic+
+        7. Inställningar
+        8. Tasker kommandon
+        9. Lägg till
+        10. Skriv in lyssningsfrasen
+        11. Välj Taskerkommando från menyn
+        12. Nu är det klart!
+    </string>
+
+    <string name="support_menu">Support</string>
+
+    <string name="log_copied">Din logg har kopierats. Du kan nu klistra in den i relevanta
+        supportförfrågningar.
+    </string>
+
+    <!-- Would actually be literally translated as "Bluetoothhörlurar", but that looks really ugly and I've never seen it used in Swedish. The english version is used instead. -->
+    <string name="bluetooth">Bluetooth Headset</string>
+
+    <string name="bluetooth_description">Spelar in ljud via ett Bluetooth headset om sånt finns.
+        Försäkra dig om att detta val också är aktiverat i inställningarna för Google Now.
+    </string>
+
+    <string name="turn_off_screen">Stäng av skärmen</string>
+
+    <!-- I don't really get this string text. Turn off screen if triggered when screen is off? Translated it nonetheless. -->
+    <string name="turn_off_screen_description">Stäng av skärmen efter 30 sekunders inaktivitet om
+        triggad när skärmen är av
+    </string>
+
+    <string name="google_update_title">Google Now Uppdatering</string>
+
+    <string name="google_update_message">Det finns en uppdaterad version av Google Now som gör Open
+        Mic+ bättre!\nVill du ladda ner den?
+    </string>
+
+    <string name="hello">Hej</string>
+
+    <string name="speech_engine">Motor för taligenkänning</string>
+
+    <string name="speech_engine_description">PocketSphinx är snabbare, mer pålitlig, och snällare
+        mot batteriet. Använd bara Google om du behöver använda Taskerkommandon eller har nyckelfras
+        på ett annat språk.
+    </string>
+
+    <string name="speech_engine_settings">Inställningar för taligenkänning</string>
+
+    <string name="sensitivity">Känslighet</string>
+
+    <string name="sensitivity_description">Kontrollerar hur känslig taligenkäning är för
+        nyckelfrasen
+    </string>
+
+    <string name="pocketsphinx">PocketSphinx (default)</string>
+
+    <string name="google">Google</string>
+
+    <string name="welcome_pocketsphinx">Möt PocketSphinx</string>
+
+    <string name="pocketsphinx_tasker">PocketSphinx stödjer inte Taskerkommandon ännu, välj istället
+        Google för taligenkänning
+    </string>
+
+    <string name="overlay">Google Now uppstartanimation</string>
+
+    <string name="read_messages">Läs SMS</string>
+
+    <string name="read_messages_summary">Läs SMS högt när Open Mic+ lyssnar</string>
+
+    <string name="shake_detection">Skakdetektion</string>
+
+    <string name="shake_missing">Ledsen, din enhet har inte en sensor för accelerometer vilket
+        behövs för skakdetektion
+    </string>
+
+    <string name="hotphrase_validated">Nyckelfras validerad...</string>
+
+    <string name="hotphrase_invalidated">Nyckelfrasen innehåller icke-engelska ord, välj Google för
+        taligenkänning om detta är planerat. Nyckelfrasen har ställts om till Okay Google...
+    </string>
+
+    <string name="hotphrase_validating">Validerar nyckelfrasen... Detta kan ta lite tid...</string>
+</resources>

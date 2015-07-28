@@ -1,0 +1,15 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference android:defaultValue="false" android:key="start_on_boot"
+        android:summary="@string/start_listening_as_soon_as_the_device_has_started"
+        android:title="@string/start_on_boot" />
+
+    <CheckBoxPreference android:defaultValue="false" android:key="listen_charging"
+        android:summary="@string/listen_charging_description"
+        android:title="@string/listen_charging" />
+
+
+    <CheckBoxPreference android:defaultValue="false" android:key="toggle_launch"
+        android:summary="@string/toggle_launch_description" android:title="@string/toggle_launch" />
+
+</PreferenceScreen>

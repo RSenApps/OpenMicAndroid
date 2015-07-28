@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated on Sunday, 06. April 2014 05:21PM by lokaligo.com -->
+
+<resources>
+    <string name="app_name">Open Mic+</string>
+
+    <string name="title_activity_donate">Doneer</string>
+
+    <string name="start">Beginnen</string>
+
+    <string name="stop">Stoppen</string>
+
+    <string name="action_question">Wat moet deze actie uitvoeren?</string>
+
+    <string name="toggle">Switch</string>
+
+    <string name="enable_screen_off">Luisteren wanneer scherm uit is inschakelen</string>
+
+    <string name="disable_screen_off">Luisteren wanneer het scherm uit is uitschakelen</string>
+
+    <string name="ok">Oke</string>
+
+    <string name="cancel">Annuleren</string>
+
+    <string name="tasker_install">Je moet Tasker eerst installeren om aparte commando\'s te
+        gebruiken
+    </string>
+
+    <string name="proximity_missing">Sorry, uw apparaat heeft geen nabijheid sensor wat nodig is
+        voor zwaai detectie
+    </string>
+
+    <string name="no_commands">Nog geen commando\'s...</string>
+
+    <string name="add_tasker_command">Nieuw Tasker commando</string>
+
+    <string name="you_have_no_tasker_tasks_please_ensure_that_tasker_misc_allow_external">Je hebt
+        geen Tasker Taken... Controleer of \"Tasker\" -> \"Misc\" -> \"Allow External Access\"
+        geactiveerd is
+    </string>
+
+    <string name="please_enter_command_phrase_">Vul een commando woord in...</string>
+
+    <string name="edit_tasker_command">Verander Tasker commando</string>
+
+    <string name="you_have_no_tasker_tasks_">Je hebt geen Tasker taken...</string>
+
+    <string name="delete">Verwijder</string>
+
+    <string name="tasker_command_executed_">Tasker commando uitgevoerd:</string>
+
+    <string name="tasker_not_ready_">Tasker niet klaar...</string>
+
+    <string name="add">Toevoegen</string>
+
+    <string name="donate">Doneer</string>
+
+    <string name="hot_phrase_detection">Woord detectie</string>
+
+    <string name="listen_for_your_specified_hot_phrase_the_default_is_okay_google">Luister naar jouw
+        geselecteerde actiewoord, het standaard actiewoord is \'\'Okay Google\'\'
+    </string>
+
+    <string name="wave_detection">Zwaai detectie</string>
+
+    <string name="wave_your_hand_back_and_forth_directly_over_the_forward_facing_camera">Zwaai met
+        je hand heen en weer over de voorcamera
+    </string>
+
+    <string name="say_this_to_activate_open_mic_">Zeg dit om Open Mic+ te activeren:</string>
+
+    <string name="hot_phrase">Woord</string>
+
+    <string name="english_optimization">Engelse optimalizatie</string>
+
+    <string name="optimize_hot_phrase_recognition_for_english">Optimaliseer woord herkenning voor
+        Engels
+    </string>
+
+    <string name="listen_while_screen_off">Luisteren terwijl scherm uit is</string>
+
+    <string
+        name="enabling_this_will_greatly_increase_power_consumption_listening_will_continue_even_when_the_screen_is_off">
+        Open Mic+ zal blijven luisteren, ook als het scherm uit is. Waarschuwing: verbruikt veel
+        batterij!
+    </string>
+
+    <string name="start_on_boot">Applicatie starten nadat apparaat is gestart</string>
+
+    <string name="start_listening_as_soon_as_the_device_has_started">Begin met luisteren zodra de
+        telefoon is opgestart
+    </string>
+
+    <string name="hide_notification">Verberg notificatie</string>
+
+    <string name="tasker">Tasker</string>
+
+    <string name="general">Algemeen</string>
+
+    <string name="activation">Activering</string>
+
+    <string name="tasker_commands">Tasker commando\'s</string>
+
+    <string name="custom_commands_using_tasker">Aangepaste commando\'s door middel van Tasker
+    </string>
+
+    <string name="hide_tasker_executed_messages">Verberg voltooide berichten van Tasker</string>
+
+    <string name="dont_show_a_message_when_a_tasker_command_is_executed_using_open_mic_">Toon geen
+        bericht als een Tasker commando is uitgevoerd met Open Mic+
+    </string>
+
+    <string name="pause">Pauzeer</string>
+
+    <string name="open_mic_paused">Open Mic+ gepauzeerd</string>
+
+    <string name="swipe_away_to_stop">Veeg weg om te stoppen</string>
+
+    <string name="resume">Hervatten</string>
+
+    <string name="vibration_feedback">Tril Feedback</string>
+
+    <string name="vibration_feedback_description">Tril kort zodra het actiewoord herkend wordt
+    </string>
+
+    <string name="listen_charging">Luisteren tijdens opladen</string>
+
+    <string name="listen_charging_description">Zet luisteren automatisch aan tijdens opladen en stop
+        zodra de lader ontkoppeld is
+    </string>
+
+    <string name="toggle_launch">Zet aan/uit bij opstarten</string>
+
+    <string name="toggle_launch_description">Het opstarten van de app zal het luisteren
+        starten/stoppen
+    </string>
+
+    <string name="listen_only_screen_off">Luister alleen als het scherm uit is</string>
+
+    <string name="listen_only_screen_off_description">Zet luisteren aan als het scherm uit staat,
+        dit is nuttig in Android 4.4 KitKat
+    </string>
+
+    <string name="listen_screen_off_charging">Luister als het scherm uit staat tijdens het opladen
+    </string>
+
+    <string name="listen_screen_off_charging_description">Draait alleen als het scherm uit staat
+        tijdens het opladen, anders alleen als het scherm aan staat
+    </string>
+
+    <string name="donate_only">Sorry, deze functie is alleen beschikbaar in de Doneer versie die
+        helpt mij tijd te spenderen aan ontwikkeling
+    </string>
+
+    <string name="use_gettasks">Standaard Google Now woord herkenning</string>
+
+    <string name="use_gettasks_summary">Gebruik het standaard Google Now-actiewoord in Google Now.
+        Dit maakt Open Mic+ betrouwbaarder, maar werkt alleen als je taal US-Engels, UK-Engels of
+        Canadees-Engels is en betekent dat je \"Okay Google\" moet zeggen in Google Now
+    </string>
+
+    <string name="yes">Ja</string>
+
+    <string name="no">Nee</string>
+
+    <string name="blacklist">Geblokkeerde applicaties</string>
+
+    <string name="blacklist_summary">Open Mic+ zal niet luisteren als de volgende apps actief zijn.
+        Het is aangeraden om zware spellen en apps die de microfoon gebruiken te selecteren.
+    </string>
+
+    <string name="relock">Vergrendelen</string>
+
+    <string name="relock_summary">Vergrendel het scherm na het sluiten van Google Now</string>
+
+    <string name="su">Verberg notificatie (root)</string>
+
+    <string name="su_summary">Verbergt de notificatie definitief op apparaten die geroot zijn
+    </string>
+
+    <string name="no_su">Sorry, geen root toegang verkregen...</string>
+
+    <string name="tasker_guide">Tasker Gids</string>
+
+    <string name="tasker_guide_message">TASKER HULPGIDS
+        Enkele gebruikers hebben om iets meer informatie over de integratie van Open Mic+ met Tasker
+        gevraagd, dus dat volgt hier :)\n
+        \n
+        Beginnen en starten van luisteren met Tasker:\n
+        1. Controleer of Tasker is geïnstalleerd op jouw apparaat (zie onderstaande knoppen)\n
+        2. Tasks>New\n
+        3. New Action\n
+        4. Plugin\n
+        5. Open Mic+ - Toggle Listening\n
+        6. Klik op Edit (Er behoort nu \"Ready\" te staan)\n
+        6. Nu je een actie hebt gemaakt, kan je die met een profiel koppelen om luisteren aan/uit te
+        zetten\n
+        \n
+        Een taak met een eigen actiewoord
+        1. Controleer of Tasker is geïnstalleerd op jouw apparaat (zie onderstaande knoppen)\n
+        2. Preferences\n
+        3. Misc\n
+        4. Zet \"Allow External Access\" aan\n
+        5. Maak een taak met de gewenste actie\n
+        6. Open Open Mic+\n
+        7. Instellingen\n
+        8. Tasker Commando\'s
+        9. Toevoegen\n
+        10. Voer uw actiewoord in\n
+        11. Selecteer het Tasker commando in het menu\n
+        12. U bent klaar!
+    </string>
+
+    <string name="support_menu">Hulp</string>
+
+    <string name="log_copied">Uw log is gekopieerd. Plak het alstublieft in de bijbehorende
+        \"Support Request\"
+    </string>
+
+    <string name="bluetooth">Bluetooth Headset</string>
+
+    <string name="bluetooth_description">Neemt audio op via Bluetooth Headset wanneer mogelijk.
+        Controleer alstublieft of deze optie ook in Google Now aan staat.
+    </string>
+
+    <string name="turn_off_screen">Zet scherm uit</string>
+
+    <string name="turn_off_screen_description">Zet het scherm uit na 30 seconden van inactiviteit
+        wanneer gestart toen het scherm uit was
+    </string>
+
+    <string name="google_update_title">Google Now update</string>
+
+    <string name="google_update_message">Er is een update voor Google Now, deze maakt Open Mic+
+        beter!\nWil je deze downloaden?
+    </string>
+
+    <string name="hello">Hallo</string>
+
+    <string name="speech_engine">Spraakherkennings systeem</string>
+
+    <string name="speech_engine_description">PocketSphinx is sneller, betrouwbaarder en batterij
+        efficiënt. Kies alleen Google als je Tasker commando\'s wilt uitvoeren of je opstart woord
+        in een andere taal hebt.
+    </string>
+
+    <string name="speech_engine_settings">Spraakherkennings systeem instellingen</string>
+
+    <string name="sensitivity">Gevoeligheid</string>
+
+    <string name="sensitivity_description">Bepaal hoe gevoelig spraakherkenning is op het opstart
+        woord
+    </string>
+
+    <string name="pocketsphinx">PocketSphinx (standaard)</string>
+
+    <string name="google">Google</string>
+
+    <string name="welcome_pocketsphinx">Ontmoet PocketSphinx</string>
+
+    <string name="pocketsphinx_tasker">PocketSphinx ondersteund nog geen Tasker commando\'s,
+        verander je tekst systeem naar Google
+    </string>
+
+    <string name="overlay">Google Now opstart animatie</string>
+
+    <string name="read_messages">Lees tekst berichten</string>
+
+    <string name="read_messages_summary">Vertel tekst berichten hardop wanneer Open Mic+ luistert
+    </string>
+
+    <string name="shake_detection">Schud opsporing</string>
+
+    <string name="shake_missing">Sorry je apparaat heeft geen accelerometer sensor wat nodig is voor
+        schud bewegingen
+    </string>
+
+    <string name="hotphrase_validated">Opstart woord gevalideerd...</string>
+
+    <string name="hotphrase_invalidated">Opstart woord bevat niet-Engelse woorden, verander je tekst
+        systeem in Google als dit opzettelijk is. Opstart woord veranderd naar Okay Google...
+    </string>
+
+    <string name="hotphrase_validating">Bezig met valideren van opstart woord... Dit kan enige tijd
+        duren...
+    </string>
+</resources>

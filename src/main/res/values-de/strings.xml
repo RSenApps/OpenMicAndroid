@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated on Thursday, 06. February 2014 04:48AM by lokaligo.com -->
+
+<resources>
+    <string name="app_name"> Open Mic + </string>
+        
+    <string name="title_activity_donate"> Spenden </string>
+        
+    <string name="start"> Start </string>
+        
+    <string name="stop"> Stelle </string>
+        
+    <string name="toggle"> umschalten </string>
+        
+    <string name="enable_screen_off"> Listening aktivieren, während Screen Off </string>
+        
+    <string name="disable_screen_off"> Listening deaktivieren, während Screen Off </string>
+        
+    <string name="ok"> OK </string>
+        
+    <string name="cancel"> Abbrechen </string>
+         <string name="tasker_install"> Sie müssen zuerst Tasker zu installieren, um benutzerdefinierte Befehle konfigurieren 
+     </string>
+
+        
+    <string name="no_commands"> keine Befehle noch ... </string>
+        
+    <string name="add_tasker_command"> Tasker Befehl </string>
+    hinzufügen
+         <string name="you_have_no_tasker_tasks_please_ensure_that_tasker_misc_allow_external"> Sie haben
+             Tasker keine Aufgaben ... Bitte stellen Sie sicher, dass Tasker> Sonstiges> Externen Zugriff zulassen aktiviert ist
+         </string>
+        
+    <string name="please_enter_command_phrase_"> Bitte geben Sie Befehlsphrase ... </string>
+        
+    <string name="edit_tasker_command"> bearbeiten Tasker Befehl </string>
+        
+    <string name="you_have_no_tasker_tasks_"> Sie haben keine Tasker Aufgaben ... </string>
+        
+    <string name="delete"> Löschen </string>
+        
+    <string name="tasker_command_executed_"> Tasker Befehl ausgeführt: </string>
+        
+    <string name="tasker_not_ready_"> Tasker nicht bereit ... Diese Tasker Ausgabe wird am häufigsten durch eine Neuinstallation Open Mic + </string>
+    Fest
+        
+    <string name="add"> </string>
+    hinzufügen
+        
+    <string name="donate"> Spenden </string>
+        
+    <string name="hot_phrase_detection"> Hotword Erkennung </string>
+         <string name="listen_for_your_specified_hot_phrase_the_default_is_okay_google"> für Ihr Hören
+             der Heib Begriff, der Standard ist okay Google
+         </string>
+        
+    <string name="wave_detection"> Wellennachweis </string>
+        
+    <string name="hot_phrase"> Hot Phrase </string>
+
+        
+    <string name="listen_while_screen_off"> Hören während Screen Off </string>
+
+
+        
+    <string name="hide_notification"> Benachrichtigung ausblenden </string>
+        
+    <string name="tasker"> Tasker </string>
+        
+    <string name="general"> Allgemeine </string>
+        
+    <string name="activation"> Aktivierung </string>
+        
+    <string name="tasker_commands"> Tasker Befehle </string>
+        
+    <string name="custom_commands_using_tasker"> Benutzerdefinierte Befehle mit Tasker </string>
+        
+    <string name="hide_tasker_executed_messages"> Tasker ausblenden Ausgeführt Nachrichten </string>
+
+        
+    <string name="pause"> Pause </string>
+        
+    <string name="open_mic_paused"> Open Mic + Pause </string>
+        
+    <string name="swipe_away_to_stop"> Streichen entfernt zu stoppen </string>
+        
+    <string name="resume"> Lebenslauf </string>
+
+        
+    <string name="listen_charging"> Auto Start am Ladegerät Anschluss </string>
+
+        
+    <string name="toggle_launch"> Auto Start / Stop-App auf Start </string>
+
+         <string name="donate_only"> Leider ist diese Funktion in der Donate-Version zur Verfügung, die 
+         hilft mir Zeit für Entwicklung ausgegeben zu rechtfertigen. Wenn Sie lieber nicht zahlen würden, können Sie freischalten können 
+         diese Funktionen durch den Austausch über Social Media. 
+     </string>
+
+        
+    <string name="yes"> Ja </string>
+        
+    <string name="no"> Nein </string>
+        
+    <string name="blacklist"> Blacklisted Apps </string>
+
+        
+    <string name="su"> Benachrichtigung komplett ausblenden (Root) </string>
+        
+    <string name="no_su"> Es tut uns leid Root-Zugriff fehlgeschlagen ... </string>
+
+        
+    <string name="share"> Share </string>
+        
+    <string name="facebook_app_id"> 1459600630952656 </string>
+        
+    <string name="support_menu"> Unterstützung </string>
+
+        
+    <string name="google_update_title"> Google Jetzt aktualisieren </string>
+         <string name="google_update_message"> Es ist eine aktualisierte Google Now, das macht Open Mic + 
+         besser! \ nMöchten Sie es herunterladen? 
+     </string>
+        
+    <string name="hello"> Hallo </string>
+        
+    <string name="sensitivity"> Empfindlichkeit </string>
+
+        
+    <string name="shake_detection"> Shake-Erkennung </string>
+
+        
+    <string name="hotphrase_validated"> Hotphrase validiert ... </string>
+         <string name="hotphrase_invalidated"> Hotphrase enthält nicht-englischen Worten, ändern Sie bitte Ihre 
+         Speech-Engine von Google, ob dies beabsichtigt. Okay, Hotphrase zu Google zurückgesetzt ... 
+     </string>
+        
+    <string name="hotphrase_validating"> Validating Hotphrase ... Dies kann einige Zeit dauern ... </string>
+
+        
+    <string name="hotphrase_reset"> Hotphrase zu Okay, Google zurückgesetzt ... </string>
+
+        
+    <string name="two_versions"> Zwei Versionen installiert </string>
+         <string name="two_versions_installed"> Sowohl die spenden und die kostenlose Version installiert sind. wie 
+         beide Versionen arbeiten unabhängig, möchten Sie die kostenlose Version deinstallieren möchte? 
+     </string>
+
+        
+    <string name="title_activity_free_donate"> Kostenlose Donate Version </string>
+
+         <string name="engine_comparison"> Google (Standard) \n-Mehr visuelle Rückmeldung (hilfreich für
+         Lernen) \n-Works \"Out of the Box \" \n-Ermöglicht Tasker Befehle \n \nPocketSphinx
+         (Fortgeschritten) \n-Schneller \n-Mehr Akku-Effiziente \n-Empfindlichkeit anpassen
+     </string>
+        
+    <string name="login_failed"> Anmeldung fehlgeschlagen. Bitte versuchen Sie es erneut ... </string> <string name="fb_share_msg"> Wie auf XDA, Lifehacker, SlashGear und mehr Highlights!
+Mit Open Mic + für Google nun Zugriff auf alle Befehle von überall auf Ihrem Handy, während der Fahrt oder während weg von Ihrem Handy! Einfach sagen \"Okay Google \", bewegen Sie Ihre Hand oder schütteln Sie das Telefon. Schirm auf, Schirm aus Google nun bereit sein wird, zu hören. </string>
+        
+    <string name="share_name"> Mic + für Google jetzt offen (Android) </string>
+        
+    <string name="post_failed"> Beitrag fehlgeschlagen. Bitte versuchen Sie es erneut ... </string>
+        
+    <string name="twitter_share_msg"> Abreise Open Mic+ für Android GoogleNow, damit die Sprachjederzeit aktiviert werden, auch wenn der Bildschirm ausgeschaltet ist! http://OpenMic.RSenApps.com </string>
+        
+    <string name="google_share_msg"> Abreise +112424215551484520138 damit #GoogleNow um Sprachjederzeit aktiviert werden, auch wenn der Bildschirm ausgeschaltet ist! Wie auf XDA, Lifehacker, SlashGear und mehr Highlights! http://OpenMic.RSenApps.com http://youtu.be/njDJODbSjhM </string>
+        
+    <string name="install_google_plus"> Bitte installieren Sie zuerst Google+ </string>
+        
+    <string name="loading_applications"> Loading Anwendung Infos ... </string>
+        
+    <string name="set"> Set </string>
+        
+    <string name="out_of"> aus </string>
+        
+    <string name="support_message_received"> Open Mic + Nachricht </string>
+        
+    <string name="support_request_received_message"> Es ist eine Antwort auf Ihre Support-Anfrage </string>
+        
+    <string name="nothing_yet"> noch nichts ... </string>
+        
+    <string name="texted"> getextet </string>
+        
+    <string name="welcome"> Willkommen auf Open Mic + </string> <string name="setup_message"> Vor Gebrauch bitte Setup Google Jetzt für hotword Erkennung zu ermöglichen.
+Auf dem nächsten Bildschirm sicher, dass: 
+</string>
+        
+    <string name="settings"> Einstellungen </string> <string name="setup_instructions"> ein. Jetzt Google ist aktiviert.
+2. Unter Voice \ "Ok Google \" hotword Erkennung ist aktiviert </string>
+        
+    <string name="done"> Fertig </string>
+        
+    <string name="play_store">-Play-Shop </string>
+        
+    <string name="about"> Über </string>
+        
+    <string name="enable_at_least_one"> Bitte aktivieren Sie mindestens eine Aktivierungsmethode </string>
+        
+    <string name="survey_available"> Sie haben für eine gezielte Umfrage, um festzustellen, zukünftige Updates </string>
+    werden qualifiziert
+        
+    <string name="open"> Öffnen </string>
+        
+    <string name="language_not_supported"> Sprache nicht unterstützt </string>
+        
+    <string name="storage_not_available"> Ihre externe Speicher nicht verfügbar ist, stellen Sie sicher, diese angeschlossen ist und versuchen Sie es erneut </string>
+        
+    <string name="no_tasker"> Kein Tasker Befehle </string>
+        
+    <string name="add_tasker"> Tasker Befehl </string>
+    hinzufügen
+        
+    <string name="enter_command_phrase"> Bitte geben Sie Befehls Phrase </string>
+        
+    <string name="edit_tasker"> bearbeiten Tasker Befehl </string>
+         Es tut uns leid
+    <string name="substandard_google_now"> Ihr Gerät über eine minderwertige Version von Google Now. Klicken Sie auf die Schaltfläche Support und ich \'ll versuchen zu helfen, Sie eine Standard-Version </string>
+    finden
+        
+    <string name="advanced"> Erweitert </string>
+        
+    <string name="listen"> Listen </string>
+        
+    <string name="over_bluetooth"> Über Bluetooth Headsets </string>
+        
+    <string name="enable_google_bluetooth"> Google nun Bluetooth </string>
+    Enable
+        
+    <string name="enable_google_bluetooth_instructions"> Auf dem nächsten Bildschirm, aktivieren \"Bluetooth Headset\" </string>
+        
+    <string name="enable_google_bluetooth_toast"> \"Bluetooth Headset\" </string>
+    Enable
+        
+    <string name="read"> Lesen </string>
+        
+    <string name="text_messages"> Text Messages Aloud </string>
+        
+    <string name="hide"> ausblenden </string>
+        
+    <string name="notification_partially"> Mitteilung teilweise </string>
+         Komplett
+    <string name="notification_completely"> Mitteilung (Root) </string>
+        
+    <string name="animate"> Animate </string>
+        
+    <string name="google_wakeup"> Google Jetzt Wakeup </string>
+        
+    <string name="vibrate"> Vibrieren </string>
+        
+    <string name="on_activation"> Auf Aktivierung </string>
+        
+    <string name="reactivate"> Reaktivieren </string>
+        
+    <string name="lockscreen_if_bypassed"> Lockscreen Wenn Bypass </string>
+        
+    <string name="turn_off"> Turn Off </string>
+        
+    <string name="screen_after_30"> Anzeige nach 30 Sekunden Wenn Turned On </string>
+        
+    <string name="tasker_executed_message"> Tasker Ausgeführt Nachricht </string>
+        
+    <string name="blacklisted_apps"> Blacklisted Apps </string>
+        
+    <string name="blacklisted"> Blacklisted </string>
+        
+    <string name="not_blacklisted"> Nicht Blacklisting </string>
+        
+    <string name="apps_using_mic"> Apps Mit Mic </string>
+        
+    <string name="apps_mic_explanation"> Android erlaubt nur eine App, um das Mikrofon zu einer Zeit, die für die Apps, die das Mikrofon, um Fehlfunktionen zu verwenden, während Open Mic + läuft verursacht zu verwenden. Möchten Sie, dass Open Mic +, um sich automatisch anzuhalten, wenn Sie diese apps? </string>
+        
+    <string name="no_blacklisted"> Kein Blacklisted </string>
+        
+    <string name="custom_apps"> Individuelle Apps </string>
+        
+    <string name="one_custom_app"> 1 Calendars App </string>
+        
+    <string name="having_trouble"> Problem haben? </string>
+        
+    <string name="knowledgebase"> Knowledgebase </string>
+        
+    <string name="xda_thread"> XDA Thema </string>
+        
+    <string name="watch"> Uhr </string>
+        
+    <string name="video"> Video </string>
+        
+    <string name="contact"> Kontakt </string>
+        
+    <string name="developer"> Entwickler </string>
+        
+    <string name="say"> Say </string>
+        
+    <string name="using"> Mit </string>
+        
+    <string name="pocketsphinx_engine"> pocket Engine </string>
+        
+    <string name="google_engine"> Google Engine </string>
+        
+    <string name="choose_speech_engine"> Wählen Speech Engine </string>
+        
+    <string name="google"> Google </string>
+        
+    <string name="pocketsphinx"> pocket </string>
+        
+    <string name="optimizing"> Optimierung </string>
+        
+    <string name="for_english"> Für Englisch </string>
+        
+    <string name="out_of_5"> von 5 </string>
+        
+    <string name="listening_during_music"> Hören Sie während der Musik </string>
+        
+    <string name="enable_google_detection"> Google Jetzt Erkennung aktivieren </string>
+        
+    <string name="on_next_screen"> Auf dem nächsten Bildschirm, </string>
+        
+    <string name="enable_google_detection_instructions"> unter Gesang, aktivieren Sie bitte \"Ok Google \" hotword Erkennung </string>
+        
+    <string name="disable_google_detection"> Deaktivieren Google Jetzt Erkennung </string>
+        
+    <string name="disable_google_detection_instructions"> unter Sprach, deaktivieren Sie bitte \"Ok Google \" hotword Erkennung </string>
+        
+    <string name="running"> Lauf </string>
+        
+    <string name="started"> Schritte </string>
+        
+    <string name="activated"> Aktiviert </string>
+        
+    <string name="no_times"> 0 Zeiten </string>
+        
+    <string name="last_heard"> Last Heard </string>
+        
+    <string name="times"> Zeiten </string>
+        
+    <string name="shake_detection_disabled">-Shake Detection (Disabled) </string>
+        
+    <string name="out_of_10"> von 10 </string>
+        
+    <string name="shake_sensitivity"> Shake-Empfindlichkeit </string>
+        
+    <string name="unavailable"> verfügbar: </string>
+        
+    <string name="no_accelerometer"> Gerät hat keine Beschleunigungsmesser </string>
+        
+    <string name="tasker_commands_disabled"> Tasker Befehle (Disabled) </string>
+        
+    <string name="one_tasker_command"> 1 Tasker Befehl </string>
+        
+    <string name="not_installed"> nicht installiert </string>
+        
+    <string name="with_pocketsphinx_engine"> Mit pocket Engine </string>
+        
+    <string name="try_word"> Versuchen </string>
+        
+    <string name="saying"> sagen </string>
+        
+    <string name="waving"> Winken </string>
+        
+    <string name="hand"> Hand </string>
+        
+    <string name="times_over_front_camera"> Zeiten bei Frontkamera </string>
+        
+    <string name="shaking"> Schütteln </string>
+        
+    <string name="phone"> Telefon </string>
+        
+    <string name="volume"> Volume </string>
+        
+    <string name="wave_detection_disabled"> Wave-Detection (Disabled) </string>
+        
+    <string name="wave"> Welle </string>
+        
+    <string name="number_waves_required"> Anzahl der Wellen Erforderliche </string>
+        
+    <string name="in"> In </string>
+        
+    <string name="seconds"> Sekunden </string>
+        
+    <string name="time_in_seconds_to_complete"> Zeit in Sekunden abgeschlossen Welle </string>
+        
+    <string name="no_proximity_sensor"> Gerät hat keine Näherungssensor </string>
+        
+    <string name="when_to_run"> Wenn To Run </string>
+        
+    <string name="auto_start"> Auto Start </string>
+        
+    <string name="on_boot"> auf Boot </string>
+        
+    <string name="on_charger"> Auf Charger </string>
+        
+    <string name="on_app_launch"> Auf-App starten </string>
+        
+    <string name="never"> Nie </string>
+        
+    <string name="listening"> Listening </string>
+        
+    <string name="not_listening"> Not Listening </string>
+        
+    <string name="while_screen_on"> Während Bildschirm auf </string>
+        
+    <string name="listen_while_screen_on"> während der Bildschirm Hören auf </string>
+        
+    <string name="while_screen_off_if_charging"> Während Screen Off Wenn Lade </string>
+        
+    <string name="while_screen_off"> Während Screen Off </string>
+        
+    <string name="start_listening_as_soon_as_the_device_has_started"> starten hören, sobald das Gerät hat begonnen </string>
+        
+    <string name="start_on_boot"> Auto Start on Boot </string>
+        
+    <string name="listen_charging_description"> automatisch auf das Zuhören schalten während des Ladevorgangs und zu stoppen, sobald getrennt </string>
+        
+    <string name="toggle_launch_description"> Öffnen der App wird starten / stoppen hören </string>
+
+        
+    <string name="invalid_int"> Ungültige Eingabe. Kein Wert geändert ... </string>
+        
+    <string name="action_question"> Was würden Sie diese Aktion Lust? </string>
+</resources>

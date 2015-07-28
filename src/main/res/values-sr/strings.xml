@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated on Sunday, 09. February 2014 06:23AM by lokaligo.com -->
+
+<resources>
+    <string name="app_name">Open Mic+</string>
+
+    <string name="title_activity_donate">Podrži Kreatora</string>
+
+    <string name="start">Pokreni</string>
+
+    <string name="stop">Zaustavi</string>
+
+    <string name="action_question">Šta želite da ova akcija uradi?</string>
+
+    <string name="toggle">Uključi</string>
+
+    <string name="enable_screen_off">Uključi slušanje za vreme ugašenog ekrana</string>
+
+    <string name="disable_screen_off">Isključi slusanje za vreme ugašenog ekrana</string>
+
+    <string name="ok">OK</string>
+
+    <string name="cancel">Poništi</string>
+
+    <string name="tasker_install">Morate instalirati aplikaciju Tasker da biste podesili posebne
+        komande
+    </string>
+
+    <string name="proximity_missing">Žao nam je ali vaš uređaj nema proksimiti senzor koji je
+        neophodan za detekciju pokreta rukom
+    </string>
+
+    <string name="no_commands">Trenutno nema više komanda...</string>
+
+    <string name="add_tasker_command">Dodaj Tasker komandu</string>
+
+    <string name="you_have_no_tasker_tasks_please_ensure_that_tasker_misc_allow_external">Trenutno
+        nemate podešene Tasker komande... Molimo vas da proverite da li je ‚‚Tasker>Misc>Allow
+        External Access\" uključeno
+    </string>
+
+    <string name="please_enter_command_phrase_">Molimo vas unesite komandu...</string>
+
+    <string name="edit_tasker_command">Izmeni Tasker komandu</string>
+
+    <string name="you_have_no_tasker_tasks_">Nemate trenutno Tasker komanda...</string>
+
+    <string name="delete">Obriši</string>
+
+    <string name="tasker_command_executed_">Tasker komanda je uključena:</string>
+
+    <string name="tasker_not_ready_">Tasker nije spreman...</string>
+
+    <string name="add">Dodaj</string>
+
+    <string name="donate">Podrži kreatora aplikacije</string>
+
+    <string name="hot_phrase_detection">Reč za detektovanje</string>
+
+    <string name="listen_for_your_specified_hot_phrase_the_default_is_okay_google">Slušanje zadate
+        reči, originalna je Okay Google
+    </string>
+
+    <string name="wave_detection">Detekcija pokreta ruku</string>
+
+    <string name="wave_your_hand_back_and_forth_directly_over_the_forward_facing_camera">Pomerajte
+        ruku gore-dole iznad prednje kamere
+    </string>
+
+    <string name="say_this_to_activate_open_mic_">Kažite ovo da biste aktivirali Open Mic+:</string>
+
+    <string name="hot_phrase">Reč za detekciju</string>
+
+    <string name="english_optimization">Optimizuj engleski jezik</string>
+
+    <string name="optimize_hot_phrase_recognition_for_english">Optimizuj reč za detekciju na
+        engleskom jeziku
+    </string>
+
+    <string name="listen_while_screen_off">Slušaj za vreme ugašenog ekrana</string>
+
+    <string
+        name="enabling_this_will_greatly_increase_power_consumption_listening_will_continue_even_when_the_screen_is_off">
+        Ako uključite, ovo može znatno povećati trošenje baterije, slušanje će se nastaviti i za
+        vreme ugašenog ekrana
+    </string>
+
+    <string name="start_on_boot">Pokreni automatski za vreme paljenja uređaja</string>
+
+    <string name="start_listening_as_soon_as_the_device_has_started">Uključi slušanje čim se
+        startuje uređaj
+    </string>
+
+    <string name="hide_notification">Sakrij notifikaciju</string>
+
+    <string name="tasker">Tasker</string>
+
+    <string name="general">Opšte</string>
+
+    <string name="activation">Aktivacija</string>
+
+    <string name="tasker_commands">Komande Taskera</string>
+
+    <string name="custom_commands_using_tasker">Posebne komande koristeći Tasker</string>
+
+    <string name="hide_tasker_executed_messages">Sakrij poruke od taskera</string>
+
+    <string name="dont_show_a_message_when_a_tasker_command_is_executed_using_open_mic_">Ne pokazuj
+        poruku kada je komanda taskera zavrsena koristeći Open Mic+
+    </string>
+
+    <string name="pause">Pauziraj</string>
+
+    <string name="open_mic_paused">Open Mic+ je pauziran</string>
+
+    <string name="swipe_away_to_stop">Prevucite prstom da zaustavite</string>
+
+    <string name="resume">Nastavi</string>
+
+    <string name="vibration_feedback">Vibracija</string>
+
+    <string name="vibration_feedback_description">Zavibriraj kada se prepozna zadata reč</string>
+
+    <string name="listen_charging">Slušaj za vreme punjenja</string>
+
+    <string name="listen_charging_description">Automatski uključi slušanje za vreme punjenja i
+        zaustavi kada se uređaj isključi sa punjača
+    </string>
+
+    <string name="toggle_launch">Uključi prilikom pokretanja</string>
+
+    <string name="toggle_launch_description">Otvaranje aplikacije će pokrenuti/zaustaviti slušanje
+    </string>
+
+    <string name="listen_only_screen_off">Slusaj samo za vreme isključenog ekrana</string>
+
+    <string name="listen_only_screen_off_description">Uključuje slušanje za vreme isključenog
+        ekrana, ovo će biti korisno ako vaš uređaj ima Android 4.4 Kitkat
+    </string>
+
+    <string name="listen_screen_off_charging">Slušanje za vreme isključenog ekrana ako se uređaj
+        puni
+    </string>
+
+    <string name="listen_screen_off_charging_description">Radi ako je ekran isključen i uređaj se
+        puni, u suprotnom radi kada je ekran uključen
+    </string>
+
+    <string name="donate_only">Žao nam je ali ova funkcija je dostupna u Donate verziji koja mi
+        pomaže da opravdam provedeno vreme razvijajući ovu aplikaciju
+    </string>
+
+    <string name="use_gettasks">Originalna Google Now reč za detekciju</string>
+
+    <string name="use_gettasks_summary">Koristi originalnu reč za detekciju za vreme korišćenja
+        Google Now aplikacije. Ovo pomaze Open Mic+ aplikaciji da bude preciznija, ali radi samo ako
+        se za jezik koristi US-English i znači da morate reći ‚‚Okay Google\" za vreme korišćenja
+        Google Now aplikacije
+    </string>
+
+    <string name="yes">Da</string>
+
+    <string name="no">Ne</string>
+
+    <string name="blacklist">Označene Aplikacije</string>
+
+    <string name="blacklist_summary">Open Mic+ neće slušati za vreme korišćenja ovih aplikacija.
+        Preporučeno je da se selektuju zahtevne igrice i aplikacije koje koriste mikrofon.
+    </string>
+
+    <string name="relock">Ponovo zaključaj</string>
+
+    <string name="relock_summary">Ponovo zaključaj prilikom izlaženja iz Google Now</string>
+
+    <string name="su">Sakrij notifikaciju (Root)</string>
+
+    <string name="su_summary">Kompletno sakrij notifikaciju kod rutovanih uredjaja</string>
+
+    <string name="no_su">Žao nam je, ali nemate rutovan uređaj</string>
+
+    <string name="tasker_guide">Tasker priručnik</string>
+
+    <string name="tasker_guide_message">TASKER PRIRUČNIK:\n
+        Neki korisnici su tražili više informacija o tome kako da koristite Tasker sa Open Mic+,
+        tako da je ovo kratak priručnik :) \n
+        \n
+        Pokreni i zaustavi slušanje taskerom:\n
+        1. Instalirajte Tasker na vašem uređaju\n
+        2. Tasks>New\n
+        3. New Action\n
+        4. Plugin\n
+        5. Open Mic+ - Uključi slušanje\n
+        6. Klikni na Edit (napisaće se Ready)\n
+        7. Sada kada ste napravili akciju, možete je povezati sa profilom da uključite slušanje\n
+        \n
+        Pokreni zadatak sa posebnom rečju\n
+        1. Instalirajte Tasker na vašem uređaju\n
+        2. Preferences\n
+        3. Misc\n
+        4. Uključi Allow External Access\n
+        5. Napravi zadatak, sa zadatom akcijom\n
+        6. Otvori Open Mic+\n
+        7. Podešavanja\n
+        8. Tasker komande\n
+        9. Add\n
+        10. Napiši reč\n
+        11. Selektuj tasker komandu iz menija
+        12. To je to!
+    </string>
+
+    <string name="support_menu">Podrška</string>
+
+    <string name="log_copied">Vaš fajl sa informacijama je kopiran. Molimo vas da ga stavite u
+        relevantni deo za podršku
+    </string>
+
+    <string name="bluetooth">Bluetooth slušalica</string>
+
+    <string name="bluetooth_description">Snimanje audia preko Bluetooth slušalice, ako je povezana
+        sa uređajem. Molimo vas da proverite da li ta opcija takođe uključena u Google Now
+        aplikaciji
+    </string>
+</resources>

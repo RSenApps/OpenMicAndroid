@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated on Sunday, 06. April 2014 05:22PM by lokaligo.com -->
+
+<resources>
+    <string name="app_name">Google Now Açılış Animasyonu</string>
+
+    <string name="title_activity_donate">Mesajları sesli olarak oku</string>
+
+    <string name="start">Open Mic+ aktifken mesajları sesli olarak oku</string>
+
+    <string name="stop">Titreme Tespiti</string>
+
+    <string name="action_question">Üzgünüm titreme tespitini kullanmak için cihazınızda ivmeölçer
+        olması gerek
+    </string>
+
+    <string name="toggle">Sesle aktivasyon doğrulandı...</string>
+
+    <string name="enable_screen_off">Sesle aktivasyon İngilizce olmayan kelimeler içeriyor, lütfen
+        diğer diller için konuşma algılayıcınızı Google olarak değiştirin. Sesle aktivasyon Okay
+        Google olarak değiştirildi...
+    </string>
+
+    <string name="disable_screen_off">Sesle aktivasyon kontrol ediliyor... Bu biraz zaman
+        alabilir...
+    </string>
+
+    <string name="ok">PocketSphinx henüz Tasket komutlarını desteklemiyor, lütfen konuşma
+        algılayıcınızı Google olarak değiştirin
+    </string>
+
+    <string name="cancel">İptal</string>
+
+    <string name="tasker_install">Özel komutları ayarlamak için önce Tasker yüklemelisiniz</string>
+
+    <string name="proximity_missing">Üzgünüz fakat hareket tespiti için cihazda yakınlık sensörü
+        yok
+    </string>
+
+    <string name="no_commands">Henüz komut yok...</string>
+
+    <string name="add_tasker_command">Tasker\'a Komut Ekle</string>
+
+    <string name="you_have_no_tasker_tasks_please_ensure_that_tasker_misc_allow_external">Hiç Tasker
+        göreviniz yok... Tasker>Misc>Allow External Acress seçeneğinin aktif olduğundan emin olun
+    </string>
+
+    <string name="please_enter_command_phrase_">Lütfen komut girin...</string>
+
+    <string name="edit_tasker_command">Tasker Komutunu Düzenle</string>
+
+    <string name="you_have_no_tasker_tasks_">Hiç Tasker göreviniz yok...</string>
+
+    <string name="delete">Sil</string>
+
+    <string name="tasker_command_executed_">Tasker komutu uygulandı:</string>
+
+    <string name="tasker_not_ready_">Tasker hazır değil...</string>
+
+    <string name="add">Ekle</string>
+
+    <string name="donate">Bağış</string>
+
+    <string name="hot_phrase_detection">Sesle Aktivasyon</string>
+
+    <string name="listen_for_your_specified_hot_phrase_the_default_is_okay_google">Sizin
+        belirlediğiniz aktivasyon sesini dinler, varsayılan Okay Google\'dir
+    </string>
+
+    <string name="wave_detection">Hareket Tespiti</string>
+
+    <string name="wave_your_hand_back_and_forth_directly_over_the_forward_facing_camera">Elinizi ön
+        kameraya dört defa ileri geri olacak şekilde sallayın
+    </string>
+
+    <string name="say_this_to_activate_open_mic_">Open Mic+\'yı aktif yapmak için şunu söyle:
+    </string>
+
+    <string name="hot_phrase">Aktivasyon Sesi</string>
+
+    <string name="english_optimization">İngilizce Optimize</string>
+
+    <string name="optimize_hot_phrase_recognition_for_english">Aktivasyon sesi ingilizce olduğundan
+        emin ol
+    </string>
+
+    <string name="listen_while_screen_off">Ekran kapalıyken dinle</string>
+
+    <string
+        name="enabling_this_will_greatly_increase_power_consumption_listening_will_continue_even_when_the_screen_is_off">
+        Ekran kapalıyken dinlemeyi açmak, güç tüketimini yüksek miktarda arttırır
+    </string>
+
+    <string name="start_on_boot">Açılışta başlat</string>
+
+    <string name="start_listening_as_soon_as_the_device_has_started">Cihaz açıldığında dinlemeye
+        başla
+    </string>
+
+    <string name="hide_notification">Bildirim simgesini gizle</string>
+
+    <string name="tasker">Tasker</string>
+
+    <string name="general">Genel</string>
+
+    <string name="activation">Aktivasyon</string>
+
+    <string name="tasker_commands">Tasker Komutları</string>
+
+    <string name="custom_commands_using_tasker">Tasker kullanarak komutları kendine uyarla</string>
+
+    <string name="hide_tasker_executed_messages">Tasker mesajlarını gizle</string>
+
+    <string name="dont_show_a_message_when_a_tasker_command_is_executed_using_open_mic_">Tasker,
+        Open Mic+ aracılığı ile bir komut uyguladığında mesaj gösterme
+    </string>
+
+    <string name="pause">Duraklat</string>
+
+    <string name="open_mic_paused">Open Mic+ Duraklatıldı</string>
+
+    <string name="swipe_away_to_stop">Durdurmak için kaydırın</string>
+
+    <string name="resume">Devam ettir</string>
+
+    <string name="vibration_feedback">Titreşimli Geribesleme</string>
+
+    <string name="vibration_feedback_description">Sesle aktivasyon yada hareket tespitiyle
+        aktivasyon yapıldığında cihazı titret
+    </string>
+
+    <string name="listen_charging">Şarj olurken dinle</string>
+
+    <string name="listen_charging_description">Şarj bağlandığında çıkarılana kadar dinleme aktif
+        olur
+    </string>
+
+    <string name="toggle_launch">Başlangıçta göster</string>
+
+    <string name="toggle_launch_description">Uygulama açıldığında dinlemeyi durdurur/sürdürür
+    </string>
+
+    <string name="listen_only_screen_off">Sadece ekran kapalıyken dinle</string>
+
+    <string name="listen_only_screen_off_description">Ekran kapandığında dinlemeyi başlatır, bu
+        Android 4.4 Kitkat için kullanışlı bir özelliktir
+    </string>
+
+    <string name="listen_screen_off_charging">Sadece şarj ederken dinle</string>
+
+    <string name="listen_screen_off_charging_description">Sadece ekran kapandığında cihaz şarj
+        oluyorsa çalışır, aksi halde ekran açıkken çalışır
+    </string>
+
+    <string name="donate_only">Üzgünüm fakat bu özellik sadece bağış sürümünde aktif, bağış ücreti
+        kodlamada harcadığım zaman için benim geçimime yardımcı olur
+    </string>
+
+    <string name="use_gettasks">Varsayılan Google Now Dinlemesi</string>
+
+    <string name="use_gettasks_summary">Varsayılan Google Now dinleme programını kullanır. Bu Open
+        Mic+\'nın daha güvenli olmasını sağlar, diliniz Amerika, İngilitere yada Kanada İngilizcesi
+        ise Google Now\'dayken \"Okay Google\" demelisiniz
+    </string>
+
+    <string name="yes">Evet</string>
+
+    <string name="no">Hayır</string>
+
+    <string name="blacklist">Karaliste Uygulamaları</string>
+
+    <string name="blacklist_summary">Open Mic+ bu uygulamalar açıkken dinlemeyecektir. Bu seçenek
+        yüksek dikkat isteyen oyunlar ve mikrofonu kullanan uygulamalar için tavsiye edilir.
+    </string>
+
+    <string name="relock">Yeniden kilitle</string>
+
+    <!-- *Relock: need to define(where it is using?) -->
+    <string name="relock_summary">Google Now kapatıldıktan hemen sonra ekranı yeniden kilitle
+    </string>
+
+    <string name="su">Bildirim simgesini gizle (Root)</string>
+
+    <string name="su_summary">Root yetkisine sahip kullanıcılar için bildirimleri tamamen gizler
+    </string>
+
+    <string name="no_su">Üzgünüz root yetkilendirmesi başarısız...</string>
+
+    <string name="tasker_guide">Tasker Rehberi</string>
+
+    <!-- Alright! :) -->
+    <string name="tasker_guide_message">TASKER REHBERİ:\n
+        Bazı kullanıcılar Open Mic ve Tasker\'i nasıl ilişkilendirecekleri hakkında bilgi
+        istemişler, iste başlıyoruz :)\n
+        \n
+        Tasker ile dinlemeyi Başlat ve Durdur:\n
+        1. Tasker\'in cihazınızda yüklü olduğundan emin olun(aşağıdaki adımları takip edin)\n
+        2. Tasks>New\n
+        3. New Action\n
+        4. Plugin\n
+        5. Open Mic+ - Toggle Listening\n
+        6. Edit\'e tıklayın(şimdi Ready yazması gerek)\n
+        6. Artık görevi belirledik, bunu bir profile dinleme ile bağlayabilirsiniz\n
+        \n
+        Bir görevi belirtilen aktivasyon sesiyle gerçekleştirme\n
+        1. Tasker\'in cihazınızda yüklü olduğundan emin olun(aşağıdaki adımları takip edin)\n
+        2. Preferences\n
+        3. Misc\n
+        4. Enable Allow External Access\n
+        5. İstenilen aksiyon ile bir görev oluşturun\n
+        6. Open Mic+\'yı açın\n
+        7. Ayarlar\n
+        8. Tasker Komutları\n
+        9. Ekle\n
+        10. Aktivasyon sesi gir\n
+        11. Menüden Tasker komutunu seçin\n
+        12. Hazır!
+    </string>
+
+    <string name="support_menu">Destek</string>
+
+    <string name="log_copied">Log\'unuz kopyalandı. Lütfen bunu destek talebinizdeki uygun yere
+        yapıştırın
+    </string>
+
+    <string name="bluetooth">Bluetooth Kulaklık</string>
+
+    <string name="bluetooth_description">Bluetooth kulaklığı mevcutsa sesi kaydeder. Lütfen Google
+        Now ayarlarından işaretli olduğundan emin olun
+    </string>
+
+    <string name="turn_off_screen">Ekranı Kapat</string>
+
+    <string name="turn_off_screen_description">30 saniye işlem yapılmazsa otomatik olarak ekranı
+        kapatır
+    </string>
+
+    <string name="google_update_title">Google Now Güncelleme</string>
+
+    <string name="google_update_message">Google Now güncellemesi bulundu, bu Open Mic+\'nın daha
+        verimli çalışmasını sağlar!\nŞimdi indirmek ister misiniz?
+    </string>
+
+    <string name="hello">Selam</string>
+
+    <string name="speech_engine">Konuşma Algılama Programı</string>
+
+    <string name="speech_engine_description">PocketSphinx daha hızlı, daha gerçekçidir ve daha az
+        şarj götürür. Tasker komutları kullanıyorsanız yada sesli aktivasyon kullanıyorsanız sadece
+        Google\'yi seçin.
+    </string>
+
+    <string name="speech_engine_settings">Konuşma Algılama Ayarları</string>
+
+    <string name="sensitivity">Hassasiyet</string>
+
+    <string name="sensitivity_description">Sesle aktivasyondaki ses hassasiyetini kontrol eder
+    </string>
+
+    <string name="pocketsphinx">PocketSphinx (varsayılan)</string>
+
+    <string name="google">Google</string>
+
+    <string name="welcome_pocketsphinx">PocketSphinx ile tanışın</string>
+
+    <string name="pocketsphinx_tasker">PocketSphinx henüz Tasker komutlarını desteklemiyor, lütfen
+        konuşma algılamayı Google olarak değiştirin
+    </string>
+
+    <string name="overlay">Google Now Açılış Animasyonu</string>
+
+    <string name="read_messages">Mesajları Oku</string>
+
+    <string name="read_messages_summary">Open Mic+ aktifken mesajları sesli biçimde oku</string>
+
+    <!-- * -->
+    <string name="shake_detection">Titreşim ile Algılama</string>
+
+    <string name="shake_missing">Üzgünüz fakat andoid cihazınızdaki titreşimi algılamak için
+        cihazınızda ivmeölçer yok
+    </string>
+
+    <string name="hotphrase_validated">Sesle aktivasyon doğrulandı</string>
+
+    <string name="hotphrase_invalidated">Sesle aktivasyonİngilizce olmayan kelimeler içeriyor,
+        lütfen konuşma algılamanız Google olarak değiştirin. Sesle aktivasyon Okay Google olarak
+        sıfırlandı...
+    </string>
+
+    <string name="hotphrase_validating">Sesle aktivasyon doğrulanıyor... Bu biraz zaman
+        alabilir...
+    </string>
+</resources>
