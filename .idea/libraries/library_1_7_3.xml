@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="library-1.7.3">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.7.3/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.7.3/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.gabrielemariotti.cards/library/1.7.3/dcfdf09b73d9352b14106c04cd0a08e37660256e/library-1.7.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

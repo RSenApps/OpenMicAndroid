@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="mobiroo-drm-v0.0.4">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/mobiroo-drm-v0.0.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
