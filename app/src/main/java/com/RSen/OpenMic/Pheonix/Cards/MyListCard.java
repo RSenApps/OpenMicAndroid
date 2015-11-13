@@ -16,7 +16,6 @@ import android.widget.TextView;
 
 import com.RSen.OpenMic.Pheonix.BuildConfig;
 import com.RSen.OpenMic.Pheonix.CustomPreferenceDialogListener;
-import com.RSen.OpenMic.Pheonix.FreeDonateActivity;
 import com.RSen.OpenMic.Pheonix.R;
 import com.RSen.OpenMic.Pheonix.Refreshable;
 
@@ -146,12 +145,6 @@ public abstract class MyListCard extends CardWithList implements CustomPreferenc
                                         + appName)
                         ));
                     }
-                }
-            });
-            builder.setNeutralButton("Share", new DialogInterface.OnClickListener() {
-                @Override
-                public void onClick(DialogInterface dialogInterface, int i) {
-                    getContext().startActivity(new Intent(getContext(), FreeDonateActivity.class));
                 }
             });
             builder.setNegativeButton(R.string.cancel, null);
