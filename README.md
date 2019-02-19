@@ -2,6 +2,9 @@
 Trigger Google Now on Anrdoid with a custom hotword, by waving your hand, or by shaking your phone
 
 Details of the app are on the website: http://openmic.rsenapps.com/
+Binaries still are linked on the xda post https://forum.xda-developers.com/showthread.php?t=2450131
+Latest binary is: https://forum.xda-developers.com/attachment.php?attachmentid=3040293&d=1417308528
+
 This app had 4,000,000+ Downloads on the Google Play Store, but Google has once again removed it from the store.
 
 This app has not been updated in a couple of years and I don't have to the time or interest in keeping it up to date, but hopefully by opensourcing this project, someone else will be able to make use of the code or continue maintaining it!
